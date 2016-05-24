@@ -1,5 +1,6 @@
 blood_raiders
 ={
+	flags = { blood_raiders }
 	name_list="amarr"
 	ship_prefix="BRC"
 	species_name="Amarr"

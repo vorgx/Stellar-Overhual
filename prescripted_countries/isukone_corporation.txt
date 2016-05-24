@@ -1,5 +1,6 @@
 ishukone_corporation
 ={
+	flags = { ishukone_corporation }
 	name_list="caldari"
 	ship_prefix="IC"
 	species_name="Caldari"

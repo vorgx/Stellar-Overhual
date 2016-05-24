@@ -1,5 +1,6 @@
 ammatar_mandate
 ={
+	flags = { ammatar_mandate }
 	name_list="amarr"
 	ship_prefix="AM"
 	species_name="Ammatar"

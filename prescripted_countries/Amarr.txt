@@ -1,4 +1,5 @@
 amarr = {
+	flags = { amarr_empire }
 	name_list="amarr"
 	ship_prefix="AMR"
 	species_name="Amarr"

@@ -1,5 +1,6 @@
 cbd_corporation
 ={
+	flags = { cbd_corporation }
 	name_list="caldari"
 	ship_prefix="CBD"
 	species_name="Caldari"

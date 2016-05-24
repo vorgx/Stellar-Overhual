@@ -1,5 +1,6 @@
 syndicate
 ={
+	flags = { syndicate }
 	name_list="gallente"
 	ship_prefix="ISP"
 	species_name="Intaki"

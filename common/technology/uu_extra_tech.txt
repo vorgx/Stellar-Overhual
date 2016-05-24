@@ -113,12 +113,15 @@ frigate_roles = {
 	area = engineering	start_tech = yes
 	category = { voidcraft }
 	tier = 0
+		prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_FRIGATE_ROLES_TITLE"
 			desc = "TECH_UNLOCK_FRIGATE_ROLES_DESC"
 		}
 
  }
+}
+
 
 frigate_roles_1 = {
 	area = engineering

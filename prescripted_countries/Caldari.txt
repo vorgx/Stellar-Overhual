@@ -1,4 +1,5 @@
 caldari = {
+	flags = { caldari_state }
 	name_list="caldari"
 	ship_prefix="CLD"
 	species_name="Caldari"

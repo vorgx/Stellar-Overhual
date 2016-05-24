@@ -1,5 +1,6 @@
 laidai_corporation
 ={
+	flags = { laidai_corporation }
 	name_list="caldari"
 	ship_prefix="DLC"
 	species_name="Caldari"

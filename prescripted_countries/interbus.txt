@@ -1,6 +1,6 @@
 interbus
 ={
-
+	flags = { interbus }
 	name_list="gallente"
 	ship_prefix="IB"
 	species_name="Gallente"

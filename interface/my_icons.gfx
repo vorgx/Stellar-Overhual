@@ -1,10 +1,5 @@
 spriteTypes = {
 
-#	spriteType = {
-#		name = "GFX_army_icons"
-#		textureFile = "gfx/interface/planetview/army_icon.dds"
-#		noOfFrames = 10
-#	}
 spriteType = {
 		name = "GFX_small_gatling_pulse"
 		texturefile = "gfx/interface/icons/ship_parts/small_gatling_pulse.dds"

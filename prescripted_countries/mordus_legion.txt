@@ -1,5 +1,6 @@
 mordus_legion
 ={
+	flags = { mordus_legion }
 	name_list="gallente"
 	ship_prefix="ML"
 	species_name="Intaki"

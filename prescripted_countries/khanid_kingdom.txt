@@ -1,6 +1,6 @@
 khanid_kingdom
 ={
-
+	flags = { khanid_kingdom }
 	name_list="amarr"
 	ship_prefix="RKN"
 	species_name="Khanid"

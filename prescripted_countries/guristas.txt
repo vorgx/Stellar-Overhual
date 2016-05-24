@@ -1,6 +1,6 @@
 guristas
 ={
-
+	flags = { guristas }
 	name_list="caldari"
 	ship_prefix="GP"
 	species_name="Caldari"

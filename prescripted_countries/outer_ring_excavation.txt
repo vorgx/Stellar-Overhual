@@ -1,5 +1,6 @@
 ore
 ={
+	flags = { ore }
 	name_list="gallente"
 	ship_prefix="ORE"
 	species_name="Gallente"

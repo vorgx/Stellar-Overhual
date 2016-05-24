@@ -33,4 +33,9 @@
  TECH_UNLOCK_FRIGATE_ROLES_2_DESC:0 "§HDamage Role§!\nAllows the Frigate to produce speed and evastion in this combat role."
 
  DOGFIGHT_BEHAVIOR_DESC:0 "The ship will charge straight at enemies and try to deal as much damage as possible while trying to stay close to the target."
- EMPTY SLOT:0 "This slot is empty"
+ EMPTY_SLOT:0 "This slot is empty"
+
+ frigate:0 "Frigate"
+ frigate_plural:0 "Frigates"
+ Carrier:0 "Carrier"
+ Carrier_plural:0 "Carriers"

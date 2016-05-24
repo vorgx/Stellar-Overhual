@@ -1,5 +1,6 @@
 angel_cartel
 ={
+	flags = { angel_cartel }
 	name_list="minmatar"
 	ship_prefix="AC"
 	species_name="Minmatar"

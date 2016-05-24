@@ -1,4 +1,5 @@
 minmatar ={
+	flags = { minmatar_republic }
 	name_list="minmatar"
 	ship_prefix="MMT"
 	species_name="Minmatar"

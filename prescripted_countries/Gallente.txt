@@ -1,4 +1,5 @@
 gallente = {
+	flags = { gallente_federation }
 	name_list="gallente"
 	ship_prefix="GAL"
 	species_name="Gallente"

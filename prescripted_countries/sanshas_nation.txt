@@ -1,5 +1,6 @@
 sanshas_nation
 ={
+	flags = { sanshas_nation }
 	name_list="caldari"
 	ship_prefix="SN"
 	species_name="Caldari"

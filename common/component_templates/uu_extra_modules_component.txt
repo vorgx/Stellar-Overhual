@@ -17,7 +17,7 @@ utility_component_template = {
 	hostile_aura = {
 		name = "aura_ship_subspace_snare"
 		radius = 50
-		apply_on = fleet
+		apply_on = fleets
 
 		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
 			id = hostile_web_aura

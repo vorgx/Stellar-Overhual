@@ -1,5 +1,6 @@
 thukker_tribe
 ={
+	flags = { thukker_tribe }
 	name_list="minmatar"
 	ship_prefix="TT"
 	species_name="Thukker"
