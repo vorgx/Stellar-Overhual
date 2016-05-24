@@ -1,0 +1,164 @@
+starfleet = {
+	randomized = no
+	
+	ship_names = {
+		generic = {
+			"Antares" "Hermes" "Yorkshire" "Agamemnon" "Ajax" "Clement" "Gage" "Bradbury" "Centaur" "Armstrong" "Buran" "Kearsarge" "Ahwahnee" "Portland" "Curry" "Archon" "Essex" "Horizon" "Al-Batani" "Berlin" "Cairo" "Charleston" "Crazy Horse" "Crockett" "Enterprise" "Excelsior" "Fearless" "Hood" "Intrepid" "Lakota" "Lexington" "Livingston" "Malinche" "Melbourne" "Okinawa" "Potemkin" "Repulse" "Roosevelt" "Tecumseh" "Valley Forge" "Concorde" "Sarajevo" "Princeton" "Wellington" "Budapest" "Canopus" "Tannu Tuva" "Aries" "Hokkaido" "Hornet" "Maryland" "Akagi" "Tolstoy" "Yellowstone" "Bozeman" "Chekov" "Woden" "Yorktown"
+		}
+	
+		corvette = {
+			"Peregrine" "Danube" "Gander" "Ganges" "Mekong" "Orinoco" "Rio Grande" "Rubicon" "Shenandoah" "Volga" "Yangtzee Kiang" "Yukon" "Arcos" "LaSalle" "Pearson" "Yeager"
+		}
+	
+		constructor = {
+		"Frederickson" "Gorkon" "Grissom" "Firebrand" "Constantinople" "Havana" "Drake" "Prokofiev" "Yeager" 
+		}
+	
+		colonizer = {
+		"Brattain" "Lantree" "Majestic" "Nautilus" "Reliant" "Saratoga" "ShirKahr" "Sitak" "Tian An Men" "Trial" "Nobel" "Pasteur"
+		}
+	
+		science = {
+		"Bellerophon" "Bonchune" "Endeavour" "Farragut" "Hera" "Honshu" "Leeds" "Lexington" "Melbourne" "Merrimack" "Monitor" "Phoenix" "Prometheus" "Proxima" "Sutherland" "T'Kumbra" "Ulysses" "Equinox" "Rhode Island" "Biko" "Bonestell" "Cochrane" "Copernicus" "Grissom" "Oberth" "Pegasus" "Raman" "Tsiolkovsky" "Yosemite"
+		}
+	
+		destroyer = {
+		"Defiant" "Valiant" "São Paulo" "Intrepid" "Bellerophon" "Voyager" "Lalo" "Wyoming" "Kyushu" "Renegade" "Rutledge" "Thomas Paine"
+		}
+	
+		cruiser = {
+		"Akira" "Rabin" "Spector" "Thunderchild" "Adelphi" "Ambassador" "Gandhi" "Horatio" "Valdemar" "Yamaguchi" "Zhukov" "Gettysburg" "Hathaway" "Magellan" "Stargazer" "Valkyrie" "Victory" "Gihlan" "Constitution" "Constellation" "Defiant" "Eagle" "Endeavour" "Enterprise" "Essex" "Excalibur" "Exeter" "Farragut" "Hood" "Intrepid" "Kongo" "Lexington" "Potemkin" "Republic" "Yorktown" "Tripoli" "Trieste"
+		}
+		
+		battleship = {
+			"Challenger" "Enterprise" "Galaxy" "Magellan" "Odyssey" "Venture" "Trinculo" "Yamato"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "Starbase %O%"
+		}
+		
+		transport = {
+			"Jenolan" "Nash" "Drake" "Fleming" "Denver"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		random_names = { }
+		sequential_name = "Battle Group %R%"
+	}
+
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "Defense Group %R%"
+		}
+		
+		assault_army = {
+			sequential_name = "Assault Group %R%"
+		}
+	
+		slave_army = {
+			sequential_name = "%O% Bonded Army"
+		}
+	
+		clone_army = {
+			sequential_name = "Replica Group %R%"
+		}
+	
+		robotic_army = {
+			sequential_name = "Droid Group %R%
+		}
+	
+		android_army = {
+		s	equential_name = "Android Group %R%"
+		}
+	
+		psionic_army = {
+			sequential_name = "%O% Soaring Minds"
+		}
+	
+		xenomorph_army = {
+			sequential_name = "Xeno Group %R%"
+		}
+	
+		gene_warrior_army = {
+			sequential_name = "Bio-Engineered Group %R%"
+		}
+	}
+
+	planet_names = {
+
+		# Names that can be assigned to all planet types
+		generic = {
+			names = {
+				Aaamazzara	Acamar	Akaali	Akritiri	Andoria	Antica	Antos	Ardana	Argelius	Argo	Arkaria	Arret	Aurelia	Bajor	Banea	Barzan	Benev Selec	Benzar	Betazed	Bolaru	Bre'el	Breen	Brekka	Brunali	Bynaus	Capella	Cardassia	Chalna	Cravic	Daled	Delb	Delta	Deneb	Denobula	Dinaal	Dosi	Draylax	Ekos	Elas	Elaysia	Eminiar	Excalbia	Fabrina	Ferenginar	Gamma Vertis	Garenor	Gosis	Halkan	Hekaras	Iconia	Ilidaria	Illyria	Janus	Kantare	Karemma	Kelemane	Kelis	Kelva	Klaestron	Koinonian	Kolarus	Kostolain	Kraylor	Ktaris	Kurill Prime	Kyrian	Vaskan	Kzin	Lissepia	Loque'eque	Luria	Lysia	Makull	Marayna	Mari	Melkotian	Mintaka	Nausicaa	Nechani	Norcadia Prime	Ocampa	Onlies	Organia	Orion	Ornara	Peliar Zel	Pendari	Pollux	Pralor	Qo'noS	Qomar	Rakhar	Rakosa	Ram Izad	Remus	Romulus	Saltah'na	Selay	Sheliak	Sigma Tama	Sikaris	Sky Spirits	Suliban	T'Lani Prime	Tagra	Tak Tak	Talax	Tallonian	Talos	Tandar Prime	Tarella	Tarquin	Tellar Prime	Telsius Prime	Teplan	Torothan	Trabe	Triannon	Trill	Troyius	Tyrellia	Tzenketh	Ullian	Vaadwaur	Valakis	Varala	Vendikar	Ventax	Vhnori	Vissia	Vulcan	Xindus	Yadera Prime	Yridian	Zahl	Zakdorn	Zalkon	Zeon
+
+			}
+		}
+		
+		pc_desert = {
+			names = { }
+		}
+		
+		pc_arid = {
+			names = { }
+		}
+		
+		pc_tropical = {
+			names = { }
+		}
+		
+		pc_continental = {
+			names = { }
+		}
+		
+		pc_ocean = {
+			names = { }
+		}
+		
+		pc_tundra = {
+			names = { }
+		}
+		
+		pc_arctic = {
+			names = { }
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		default = {
+			full_names = { }
+			
+			first_names = { }
+			
+			first_names_male = {
+				"Jonathan" "Christopher" "James" "Benjamin" "Jean-Luc" "Wesley" "Riker" "Geordi" "Ronald" "Edison" "Keven" "Leif" "Lincoln" "Lynwood" "Hal"
+			}
+			
+			first_names_female = {
+				"Kathryn" "Beverly" "Cheryl" "Betty" "Deanna" "Kira" "Neomi" "Calista" "Asley" "Shizuko" "Keva" "Eladia" "Camila" "Keira" "Matha" "Necole" "Lilliam"
+			}
+			
+			second_names = {
+				"Archer" "Pike" "Kirk" "Janeway" "Sisko" "Picard" "Crusher" "Howard" "Riker" "Troi" "Nerys" "La Forge" "Moore" "Jammer" "Sladek" "Jackstadt" "Kiani" "Irani" "Haught" "Tower" "Wakeman" "Wildman" "Dowe"
+			}
+			
+			regnal_first_names = { }
+			regnal_first_names_male = { }
+			regnal_first_names_female = { }
+			regnal_second_names = { }
+		}
+	}
+}

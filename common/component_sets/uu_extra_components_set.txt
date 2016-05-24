@@ -1,0 +1,29 @@
+component_set = {
+	key = "frigate_roles"
+
+	show_in_designer = no
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "support_tech"
+
+	show_in_designer = no
+	icon = "GFX_ship_part_aura_snare"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DRONE_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_scout_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PULSE_LASER"
+	show_in_designer = yes
+	icon = "GFX_small_gatling_pulse"
+	icon_frame = 1
+}

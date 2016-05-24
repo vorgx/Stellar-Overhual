@@ -1,0 +1,50 @@
+StarFleet = {
+	name_list="starfleet"
+	ship_prefix="USS"
+	species_name="StarFleet"
+	species_plural="StarFleets"
+	species_class="MAM"
+	species_adjective="StarFleet"
+	portrait="human"
+	name="StarFleet "
+	adjective="StarFleet"
+	government="indirect_democracy"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="SOL"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="ovalevertical.dds"
+		}
+		colors={
+			"ultramarine"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="James T. Kirk"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=11
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}

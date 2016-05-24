@@ -1,0 +1,11 @@
+﻿l_english:
+
+ EMPIRE_DESIGN_amarr:0 "Amarr Empire"
+ EMPIRE_DESIGN_amarr_desc:0 "Empire Bonus\n\n15% Armor Bonus\n+5 to Armor\n\nThe Amarrians were the first of the races in EVE to re-discover Warp technology, notably Jump gate technology. After accomplishing this more than 2,000 years ago, they immediately began expanding to nearby solar systems, slowly building up their empire in the process. On the way, they encountered two human races, both of whom suffered the fate of being enslaved by the far more powerful Amarrians.In recent years, however, the Amarrians have begun to run into serious opposition. First, they met the Gallente Federation. Although much smaller than the Amarr Empire, the Amarrians soon found the economic and military might of the Gallenteans a match for their own.Soon after, the Jovians arrived on the scene and the Amarrians made a futile attempt to subjugate them, resulting in a humiliating defeat. To make matters worse, the Minmatars, enslaved for centuries by the Amarrians, used the opportunity to rebel against their slave-masters.Since these fateful events almost two centuries ago, the Amarrians have learned restraint. They have slowed down their expansion and are less forceful in their dealings with other races, but still view themselves as the most powerful race in EVE, if only because of their sheer numbers."
+ name_list_amarr:0 "Amarr Empire"
+ #amarr_bonus:0 "Amarr Empire Bonus"
+ #amarr_bonus_desc:0 "This is the bonus you get for being the Amarr Empire"
+ #trait_amarr:0 "Amarr Bonus"
+ #trait_amarr_desc:0 "Empire Bonus\n15% Armor Bonus\n+5 to Armor."
+ IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
+ AMR:0 "Amarr"

@@ -1,0 +1,424 @@
+gallente_federation = {
+    name = "Luminaire"
+    class = "rl_standard_stars"
+    flags = { gallente_home_system }
+	usage = custom_empire
+    # The Sun of this system:
+    planet = {
+        class = star
+        size = 26
+        orbit_distance = 0
+    }
+    planet = { 
+		name = "Noya"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = pc_molten        
+    }
+    planet = { 
+		name = "Corefu"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = "pc_desert"
+        change_orbit = 10
+        moon = {
+            size = 12
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Astrin"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = "pc_arctic"
+        change_orbit = 10
+        moon = {
+            size = 8
+            orbit_distance = 3
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Malloc"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = "pc_barren"
+        change_orbit = 10
+        moon = {
+            size = 7
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Tanet"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = "pc_barren"
+        change_orbit = 10
+        moon = {
+            size = 6
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 2
+            orbit_distance = 8
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Gallente Prime"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+		flags = { gallente_home_planet }
+        class = "pc_ocean"
+        home_planet = yes 
+        tile_blockers = none
+        modifiers = none
+        init_effect = { 
+            prevent_anomaly = yes
+        }	
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+        change_orbit = 10
+        moon = {
+            size = 1
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 13
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 3
+            orbit_distance = 9
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 3
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 4
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 12
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 1
+            orbit_distance = 8
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 2
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 11
+            orbit_distance = 4
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 1
+            orbit_distance = 3
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 10
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 7
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 5
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 5
+            orbit_distance = 9
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 8
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 5
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 14
+            orbit_distance = 8
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Caldari Prime"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        class = "pc_arctic"
+		flags = { caldari_prime }
+        change_orbit = 10
+        moon = {
+            size = 2
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 8
+            orbit_distance = 5
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 12
+            orbit_distance = 9
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 10
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 1
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 14
+            orbit_distance = 8
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 8
+            orbit_distance = 7
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 2
+            orbit_distance = 9
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 12
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 10
+            orbit_distance = 8
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 2
+            orbit_distance = 4
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 9
+            orbit_distance = 4
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 5
+            orbit_distance = 6
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 10
+            orbit_distance = 3
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+        moon = {
+            size = 1
+            orbit_distance = 2
+            orbit_angle = { min = 20 max = 270 }
+            class = random_non_colonizable
+        }
+    }
+    planet = { 
+		name = "Ortange"
+        orbit_distance = 150
+        orbit_angle = { min = 20 max = 270 }
+        size = 25
+        class = "pc_frozen"
+        change_orbit = 10
+        moon = {
+            size = 12
+            orbit_distance = 15
+            orbit_angle = { min = 20 max = 270 }
+            class = "pc_frozen"
+        }
+    }
+}

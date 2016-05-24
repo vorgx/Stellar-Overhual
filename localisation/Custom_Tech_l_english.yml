@@ -1,0 +1,36 @@
+﻿l_english:
+
+ frigate_1:0 "Frigate Construction"
+ frigate_1_desc:0 "Establishing new standards for the modeling and construction of frigates.\n\n"
+ frigate_2:0 "Advanced Frigate Construction"
+ frigate_2_desc:0 "Establishing new standards for the modeling and construction of Advanced frigates.\n\n"
+ TECH_UNLOCK_FRIGATE_1_TITLE:0 "§HUnlocks Ship§! Frigate"
+ TECH_UNLOCK_FRIGATE_1_DESC:0 "§HUnlocks Ship§!\n Frigate."
+ TECH_UNLOCK_FRIGATE_2_TITLE:0 "§HUnlocks Ship§! Advanced Frigate"
+ TECH_UNLOCK_FRIGATE_2_DESC:0 "§HUnlocks Ship§!\n Advanced Frigate."
+
+ support_tech:0 "Support Technology"
+ support_tech_desc:0 "This unlocks the technology to web and scram other ships"
+ TECH_UNLOCK_SUPPORT_TECH_TITLE:0 "§HUnlocks Component§! Support Technology for Frigates"
+ TECH_UNLOCK_SUPPORT_TECH_DESC:0 "§HSupport Technology§!\nAllows the Frigate to mount Webs and Scrams."
+
+ combat_computers_start:0 "Basic Combat Computers"
+ combat_computers_start_desc:0 "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency."
+ TECH_UNLOCK_COMBAT_COMPUTERS_START_TITLE:0 "§HUnlocks Component§! Dog fighting Tactics"
+ TECH_UNLOCK_COMBAT_COMPUTERS_START_DESC:0 "§HDog fighting Tactics§!\nRecent progress in AI behavioral theory allows us to designate specific combat roles to our shipboard computers. Dog fighting forces the ships to go in close."
+
+ frigate_roles:0 "Frigate Roles"
+ frigate_roles_desc:0 "Frigate Roles \n This will grant you access to future Frigate ship roles"
+ TECH_UNLOCK_FRIGATE_ROLES_1_TITLE:0"Frigate Roles"
+ TECH_UNLOCK_FRIGATE_ROLES_1_DESC:0"Frigate Roles \n This will grant you access to future Frigate ship roles"
+ frigate_roles_1:0 "Frigate Role Tier 1"
+ frigate_roles_1_desc:0 "Frigate Damage"
+ frigate_roles_2:0 "Frigate Role Tier 2"
+ frigate_roles_2_desc:0 "Frigate Speed"
+ TECH_UNLOCK_FRIGATE_ROLES_1_TITLE:0 "§HUnlocks Role§! Combat Role - Damage"
+ TECH_UNLOCK_FRIGATE_ROLES_1_DESC:0 "§HDamage Role§!\nAllows the Frigate to produce more damage in this combat role."
+ TECH_UNLOCK_FRIGATE_ROLES_2_TITLE:0 "§HUnlocks Role§! Combat Role - Speed and Evasion"
+ TECH_UNLOCK_FRIGATE_ROLES_2_DESC:0 "§HDamage Role§!\nAllows the Frigate to produce speed and evastion in this combat role."
+
+ DOGFIGHT_BEHAVIOR_DESC:0 "The ship will charge straight at enemies and try to deal as much damage as possible while trying to stay close to the target."
+ EMPTY SLOT:0 "This slot is empty"

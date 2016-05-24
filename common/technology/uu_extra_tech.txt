@@ -1,0 +1,308 @@
+
+@tier1cost1 = 240
+@tier1cost2 = 360
+@tier1cost3 = 480
+@tier1cost4 = 600
+
+@tier2cost1 = 900
+@tier2cost2 = 1200
+@tier2cost3 = 1500
+@tier2cost4 = 1800
+
+@tier3cost1 = 2320
+@tier3cost2 = 2840
+@tier3cost3 = 3360
+@tier3cost4 = 3880
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+frigate_1 = {
+	cost = 0
+	area = engineering	start_tech = yes
+	category = { voidcraft }
+	tier = 0
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_FRIGATE_1_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_1_DESC"
+		}
+
+		component = {
+			title = "TECH_UNLOCK_FRIGATE_ROLES_1_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_ROLES_1_DESC"
+		}
+
+		}
+	}
+
+frigate_2 = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	prerequisites = { "frigate_1" "tech_spaceport_2"  }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_spaceport_2
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 7
+		}
+		modifier = {
+			factor = 4
+			years_passed > 10
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+		prereqfor_desc = {
+			ship = {
+				title = "TECH_UNLOCK_FRIGATE_2_TITLE"
+				desc = "TECH_UNLOCK_FRIGATE_2_DESC"
+			}
+		}
+
+	ai_weight = {
+		factor = 100 #important tech - destroyers
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+ }
+
+frigate_roles = {
+	cost = 0
+	area = engineering	start_tech = yes
+	category = { voidcraft }
+	tier = 0
+		component = {
+			title = "TECH_UNLOCK_FRIGATE_ROLES_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_ROLES_DESC"
+		}
+
+ }
+
+frigate_roles_1 = {
+	area = engineering
+	tier = 1
+	cost = @tier1cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "frigate_roles" }
+	weight = @tier1weight3
+
+	# unlocks aggressive / defensive combat computers
+
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_spaceport_2
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 7
+		}
+		modifier = {
+			factor = 4
+			years_passed > 10
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_FRIGATE_ROLES_1_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_ROLES_1_DESC"
+		}
+	}
+
+	ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+ }
+
+frigate_roles_2 = {
+	area = engineering
+	tier = 2
+	cost = @tier2cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "frigate_roles_1" }
+	weight = @tier2weight3
+
+
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_spaceport_2
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 7
+		}
+		modifier = {
+			factor = 4
+			years_passed > 10
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_FRIGATE_ROLES_2_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_ROLES_2_DESC"
+		}
+	}
+
+	ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+ }
+
+support_tech = {
+	area = engineering
+	tier = 1
+	cost = @tier1cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "frigate_1" }
+	weight = @tier1weight3
+
+
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_spaceport_2
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 7
+		}
+		modifier = {
+			factor = 4
+			years_passed > 10
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_SUPPORT_TECH_TITLE"
+			desc = "TECH_UNLOCK_SUPPORT_TECH_DESC"
+		}
+	}
+
+	ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+ }
+
+combat_computers_start = {
+	cost = 0
+	area = physics	start_tech = yes
+	category = { computing }
+	tier = 0
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_COMBAT_COMPUTERS_START_TITLE"
+			desc = "TECH_UNLOCK_COMBAT_COMPUTERS_START_DESC"
+		}
+
+  }
+ }

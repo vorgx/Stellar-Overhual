@@ -1,0 +1,20 @@
+weapon_component_template = {
+	key = "SMALL_PULSE_LASER"
+	size = small
+	entity = "small_laser_gun_entity"
+	damage = { min = 1.0 max = 3.0 }
+	windup = { min = 1.5 max = 10.0 }
+	total_fire_time = 6
+	range = 5
+	accuracy = 0.90
+	type = instant
+	icon = "GFX_GFX_small_gatling_pulse"
+	icon_frame = 1
+	color = { 1.0 0.1 1.0 1 }
+	power = -1.5
+	cost = 1.5
+	prerequisites = { "tech_lasers_1" }
+	component_set = "PULSE_LASER"
+	projectile_gfx = "infrared_laser_s"
+	tags = { weapon_type_energy }
+}

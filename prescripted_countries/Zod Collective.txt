@@ -1,0 +1,52 @@
+"Zod Collective"
+={
+	name_list="ART2"
+	ship_prefix="ZZD"
+	species_name="Zod Collective"
+	species_plural="ZODEES"
+	species_class="ART"
+	species_adjective="Zod Collectivan"
+	portrait="art10"
+	name="Zod Collective"
+	adjective="ZOD"
+	government="science_directorate"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="ZOD Prime"
+	planet_class="pc_arid"
+	system_name="ZOD"
+	initializer="sol_system_initializer"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="Angel_Cartel.dds"
+		}
+		background={
+			category="backgrounds"
+			file="soleillevant.dds"
+		}
+		colors={
+			"light_blue"
+			"prussian_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="ZOD"
+		portrait="art10"
+		texture=0
+		hair=0
+		clothes=3
+	}
+	spawn_enabled=yes
+	ethic="ethic_individualist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_industrious"
+	trait="trait_repugnant"
+	trait="trait_intelligent"
+	trait="trait_sedentary"
+}

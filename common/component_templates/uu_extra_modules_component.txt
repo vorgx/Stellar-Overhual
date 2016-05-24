@@ -1,0 +1,94 @@
+
+utility_component_template = {
+	key = "Web and Scram"
+	size = small
+	icon = "GFX_ship_part_aura_snare"
+	icon_frame = 1
+	power = -10
+	cost = 20
+
+	component_set = "support_tech"
+
+	modifier = {
+			ship_combat_speed_mult = 0.5
+			ship_evasion_mult = 0.25
+	}
+
+	hostile_aura = {
+		name = "aura_ship_subspace_snare"
+		radius = 50
+		apply_on = fleet
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_web_aura
+			priority = 1
+		}
+
+		modifier = {
+			ship_windup_mult = 4
+			ship_speed_mult = -0.5
+			fleet_emergency_ftl_min_days_mult = 1
+			ship_evasion_mult = -0.50
+			ship_combat_speed_mult = -0.50
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+
+	class_restriction = { shipclass_military }
+	prerequisites = { "support_tech" }
+
+}
+
+utility_component_template = {
+	key = "Empty Support Slot"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	ai_weight = {
+		weight = 1
+	}
+
+	class_restriction = { shipclass_military }
+
+	component_set = "support_tech"
+}
+
+
+utility_component_template = {
+	key = "Basic Frigate Dogfight"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_basic"
+	icon_frame = 1
+	power = 0
+	cost = 1
+	ship_behavior = "Basic_Frigate_Dogfight"
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+	}
+
+	class_restriction = { shipclass_military }
+	prerequisites = { "combat_computers_start" }
+	component_set = "combat_computers"
+}

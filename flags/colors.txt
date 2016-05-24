@@ -1,0 +1,2669 @@
+#this file is reloadable with the filewatcher only
+#Jenny's 48 Colors
+#8 for Yellow & Orange
+#8 for Red
+#8 for Magenta & Violet
+#8 for Blue
+#8 for Cyan & Green
+#8 for Brown & Colorless
+   
+colors = {
+		###YELLOWS
+		yellow		= { flag = hsv { 0.17 0.7 0.99 }	map = hsv { 0.17 0.7 0.65 } }
+		dijon		= { flag = hsv { 0.15 0.61 0.85 }	map = hsv { 0.15 0.61 0.65 } }
+		amber		= { flag = hsv { 0.11 0.99 0.99 }	map = hsv { 0.11 0.99 0.65 } }
+		gold		= { flag = hsv { 0.13 0.74 0.83 }	map = hsv { 0.13 0.74 0.63 } }
+		###ORANGES
+		bright_orange = { flag = hsv { 0.1 0.96 0.9 }     map = hsv { 0.1 0.96 0.75 } }
+		orange		= { flag = hsv { 0.08 0.9 0.7 }     map = hsv { 0.075 0.8 0.7 } }
+		bold_orange = { flag = hsv { 0.06 0.89 0.88 }	map = hsv { 0.06 0.89 0.75 } }
+		blood_orange = { flag = hsv { 0.04 0.99 0.78 }	map = hsv { 0.04 0.99 0.75 } }
+		###REDS
+		red_orange	= { flag = hsv { 0.01 0.75 0.7 }    map = hsv { 0.028 0.75 0.7 } }
+		true_red	= { flag = hsv { 0 0.89 0.9 }     map = hsv { 0 0.89 0.75 } }
+		red			= { flag = hsv { 0.98 1.0 0.4 }     map = hsv { 0.99 0.8 0.5 } }		
+		burgundy	= { flag = hsv { 0.95 0.8 0.35 }    map = hsv { 0.93 0.6 0.42 } }
+		cardinal	= { flag = hsv { 0.97 0.85 0.77 }	map = hsv { 0.97 0.85 0.73 } }
+		crimson		= { flag = hsv { 0.97 0.91 0.86 }	map = hsv { 0.97 0.91 0.75 } }
+		auburn		= { flag = hsv { 0 0.75 0.65 }		map = hsv { 0 0.75 0.65 } }
+		fire_brick 	= { flag = hsv { 0 0.74 0.42 }		map = hsv { 0 0.74 0.42 } } 
+		###MAGENTAS
+		pink		= { flag = rgb { 130 50 105 }       map = hsv { 0.95 0.35 0.6 }  }
+		dark_magenta = { flag = hsv { 0.93 0.9 0.76 }	map = hsv { 0.93 0.9 0.75 } }
+		lilac		= { flag = hsv { 0.81 0.28 0.95 }	map = hsv { 0.81 0.28 0.55 } }
+		bubblegum	= { flag = hsv { 0.93 0.48 0.95 }	map = hsv { 0.93 0.48 0.75 } }
+		###VIOLETS
+		palatinate	= { flag = hsv { 0.86 0.62 0.41 }    map = hsv { 0.86 0.62 0.41 }  }
+		purple		= { flag = rgb { 100 54 158 }       map = hsv { 0.8 0.4 0.5 } }			
+		dark_purple = { flag = rgb { 61 27 96 }         map = hsv { 0.85 0.6 0.35 } }		
+		indigo		= { flag = hsv { 0.71 0.85 0.5 }    map = hsv { 0.71 0.85 0.5 }  }
+		###BLUES
+		prussian_blue	= { flag = hsv { 0.68 0.52 0.23 }	map = hsv { 0.68 0.52 0.23 } }
+		dark_blue	= { flag = hsv { 0.64 0.85 0.45 }   map = hsv { 0.58 0.7 0.4 } }		
+		blue		= { flag = hsv { 0.64 0.75 0.75 }   map = hsv { 0.6 0.5 0.6 } }
+		light_blue	= { flag = hsv { 0.58 0.47 0.86 }	map = hsv { 0.58 0.47 0.55 } }
+		liberty		= { flag = hsv { 0.66 0.5 0.66 }	map = hsv { 0.66 0.5 0.65 } }
+		ultramarine = { flag = hsv { 0.69 0.99 0.84 }	map = hsv { 0.69 0.99 0.65 } }
+		space_cadet = { flag = hsv { 0.63 0.64 0.32 }	map = hsv { 0.63 0.64 0.32 } }
+		ice_blue 	= { flag = hsv { 0.5 0.3 0.85 }		map = hsv { 0.5 0.3 0.55 } }
+		###CYANS
+		cerulean	= { flag = hsv { 0.53 0.6 0.5 }     map = hsv { 0.53 0.6 0.5 }   }
+		turquoise	= { flag = hsv { 0.49 0.6 0.6 }     map = hsv { 0.53 0.6 0.5 }   }
+		teal		= { flag = hsv { 0.42 0.6 0.5  }    map = hsv { 0.43 0.3 0.5  }  }		
+		dark_teal	= { flag = hsv { 0.5 0.6 0.3 }      map = hsv { 0.48 0.6 0.42 } }
+		###GREENS
+		green		= { flag = hsv { 0.32 0.6 0.40 }	map = hsv { 0.32 0.4 0.55 } }		
+		dark_green	= { flag = hsv { 0.33 0.6 0.27 }    map = hsv { 0.33 0.4 0.3 } }
+		earth_green	= { flag = hsv { 0.26 0.77 0.13 }    map = hsv { 0.26 0.77 0.13 } }
+		lime_green	= { flag = hsv { 0.26 0.86 0.75 }	map = hsv { 0.26 0.86 0.55 } }
+		###BROWNS
+		dark_brown 	= { flag = hsv { 0.07 0.6 0.23 }	map = hsv { 0.06 0.5 0.35 } }
+		gray_brown  = { flag = hsv { 0.11 0.35 0.46 }	map = hsv { 0.11 0.35 0.46 } }
+		brown 		= { flag = hsv { 0.07 0.6 0.4 }     map = hsv { 0.08 0.5 0.55 } }
+		peach		= { flag = hsv { 0.08 0.46 0.9 }	map = hsv { 0.08 0.46 0.65 } }
+		###COLORLESS
+		grey		= { flag = hsv { 0.65 0.05 0.35 }   map = hsv { 0.58 0.15 0.6 } use_as_border_color = no }		
+		dark_grey	= { flag = hsv { 0.65 0.05 0.22 }   map = hsv { 0.6 0.2 0.3 } use_as_border_color = no }			
+		black		= { flag = hsv { 0.5 0.3 0.05 }     map = hsv { 0.7 0.1 0.18 } use_as_border_color = no }
+		white		= { flag = hsv { 0 0 0.99 }	    map = hsv { 0.0 0.0 0.75 } use_as_border_color = no }
+}
+   
+
+#	 BLACK
+		#WITH YELLOWS
+		randomizable_combo = { yellow black black }
+		randomizable_combo = { black yellow black }
+		randomizable_combo = { dijon black black }
+		randomizable_combo = { black dijon black }
+		randomizable_combo = { amber black black }
+		randomizable_combo = { black amber black }
+		randomizable_combo = { gold black black }
+		randomizable_combo = { black gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange black orange }
+		randomizable_combo = { black orange orange }
+		randomizable_combo = { bright_orange black bright_orange }
+		randomizable_combo = { black bright_orange bright_orange }
+		randomizable_combo = { bold_orange black bold_orange }
+		randomizable_combo = { black bold_orange bold_orange }
+		randomizable_combo = { blood_orange black blood_orange }
+		randomizable_combo = { black blood_orange blood_orange }
+		#WITH REDS
+		randomizable_combo = { red_orange black red_orange }
+		randomizable_combo = { black red_orange red_orange }
+		randomizable_combo = { red black red }
+		randomizable_combo = { black red red }
+		randomizable_combo = { true_red black true_red }
+		randomizable_combo = { black true_red true_red }
+		randomizable_combo = { burgundy black burgundy }
+		randomizable_combo = { black burgundy black }
+		randomizable_combo = { cardinal black cardinal }
+		randomizable_combo = { black cardinal black }
+		randomizable_combo = { crimson black crimson }
+		randomizable_combo = { black crimson black }
+		randomizable_combo = { auburn black auburn }
+		randomizable_combo = { black auburn black }
+		randomizable_combo = { fire_brick black fire_brick }
+		randomizable_combo = { black fire_brick black }
+		#WITH MAGENTAS
+		randomizable_combo = { pink black pink }
+		randomizable_combo = { black pink black }
+		randomizable_combo = { dark_magenta black dark_magenta }
+		randomizable_combo = { black dark_magenta black }
+		randomizable_combo = { lilac black black }
+		randomizable_combo = { black lilac black }
+		randomizable_combo = { bubblegum black bubblegum }
+		randomizable_combo = { black bubblegum black }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate black palatinate }
+		randomizable_combo = { black palatinate black }
+		randomizable_combo = { indigo black indigo }
+		randomizable_combo = { black indigo black }
+		randomizable_combo = { purple black purple }
+		randomizable_combo = { black purple black }
+		randomizable_combo = { dark_purple black dark_purple }
+		randomizable_combo = { black dark_purple black }
+		#WITH BLUES
+		randomizable_combo = { blue black blue }
+		randomizable_combo = { black blue blue }
+		randomizable_combo = { dark_blue black dark_blue }
+		randomizable_combo = { black dark_blue dark_blue }
+		randomizable_combo = { light_blue black black }
+		randomizable_combo = { black light_blue black }
+		randomizable_combo = { prussian_blue black prussian_blue }
+		randomizable_combo = { black prussian_blue black }
+		randomizable_combo = { ice_blue black black }
+		randomizable_combo = { black ice_blue black }
+		randomizable_combo = { space_cadet black space_cadet }
+		randomizable_combo = { black space_cadet black }
+		randomizable_combo = { ultramarine black ultramarine }
+		randomizable_combo = { black ultramarine ultramarine }
+		randomizable_combo = { liberty black liberty }
+		randomizable_combo = { black liberty black }
+		#WITH CYANS
+		randomizable_combo = { teal black teal }
+		randomizable_combo = { black teal teal }
+		randomizable_combo = { dark_teal black dark_teal }
+		randomizable_combo = { black dark_teal dark_teal }
+		randomizable_combo = { turquoise black turquoise }
+		randomizable_combo = { black turquoise black }
+		randomizable_combo = { cerulean black black }
+		randomizable_combo = { black cerulean black }
+		#WITH GREENS
+		randomizable_combo = { green black green }
+		randomizable_combo = { black green green }
+		randomizable_combo = { dark_green black dark_green }
+		randomizable_combo = { black dark_green dark_green }
+		randomizable_combo = { earth_green black earth_green }
+		randomizable_combo = { black earth_green earth_green }
+		randomizable_combo = { lime_green black lime_green }
+		randomizable_combo = { black lime_green black }
+		#WITH BROWNS
+		randomizable_combo = { brown black brown }
+		randomizable_combo = { black brown brown }
+		randomizable_combo = { dark_brown black dark_brown }
+		randomizable_combo = { black dark_brown black }
+		randomizable_combo = { gray_brown black gray_brown }
+		randomizable_combo = { black gray_brown black }
+		randomizable_combo = { peach black peach }
+		randomizable_combo = { black peach black }
+		#WITH COLORLESS
+		randomizable_combo = { grey black grey }
+		randomizable_combo = { black grey black }
+		randomizable_combo = { dark_grey black grey }
+		randomizable_combo = { black dark_grey black }
+		randomizable_combo = { white black black }
+		randomizable_combo = { black white black }
+
+
+#	WHITE
+		#WITH YELLOWS
+		randomizable_combo = { yellow white black }
+		randomizable_combo = { white yellow black }
+		randomizable_combo = { dijon white black }
+		randomizable_combo = { white dijon black }
+		randomizable_combo = { amber white black }
+		randomizable_combo = { white amber black }
+		randomizable_combo = { gold white black }
+		randomizable_combo = { white gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange white orange }
+		randomizable_combo = { white orange orange }
+		randomizable_combo = { bright_orange white bright_orange }
+		randomizable_combo = { white bright_orange bright_orange }
+		randomizable_combo = { bold_orange white bold_orange }
+		randomizable_combo = { white bold_orange bold_orange }
+		randomizable_combo = { blood_orange white blood_orange }
+		randomizable_combo = { white blood_orange blood_orange }
+		#WITH REDS
+		randomizable_combo = { red_orange white red_orange }
+		randomizable_combo = { white red_orange red_orange }
+		randomizable_combo = { red white red }
+		randomizable_combo = { white red red }
+		randomizable_combo = { true_red white true_red }
+		randomizable_combo = { white true_red true_red }
+		randomizable_combo = { burgundy white burgundy }
+		randomizable_combo = { white burgundy black }
+		randomizable_combo = { cardinal white cardinal }
+		randomizable_combo = { white cardinal black }
+		randomizable_combo = { crimson white crimson }
+		randomizable_combo = { white crimson black }
+		randomizable_combo = { auburn white auburn }
+		randomizable_combo = { white auburn black }
+		randomizable_combo = { fire_brick white fire_brick }
+		randomizable_combo = { white fire_brick black }
+		#WITH MAGENTAS
+		randomizable_combo = { pink white pink }
+		randomizable_combo = { white pink black }
+		randomizable_combo = { dark_magenta white dark_magenta }
+		randomizable_combo = { white dark_magenta black }
+		randomizable_combo = { lilac white black }
+		randomizable_combo = { white lilac black }
+		randomizable_combo = { bubblegum white bubblegum }
+		randomizable_combo = { white bubblegum black }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate white palatinate }
+		randomizable_combo = { white palatinate black }
+		randomizable_combo = { indigo white indigo }
+		randomizable_combo = { white indigo black }
+		randomizable_combo = { purple white purple }
+		randomizable_combo = { white purple black }
+		randomizable_combo = { dark_purple white dark_purple }
+		randomizable_combo = { white dark_purple black }
+		#WITH BLUES
+		randomizable_combo = { blue white blue }
+		randomizable_combo = { white blue blue }
+		randomizable_combo = { dark_blue white dark_blue }
+		randomizable_combo = { white dark_blue dark_blue }
+		randomizable_combo = { light_blue white light_blue }
+		randomizable_combo = { white light_blue light_blue }
+		randomizable_combo = { prussian_blue white prussian_blue }
+		randomizable_combo = { white prussian_blue black }
+		randomizable_combo = { ice_blue white ice_blue }
+		randomizable_combo = { white ice_blue black }
+		randomizable_combo = { space_cadet white space_cadet }
+		randomizable_combo = { white space_cadet black }
+		randomizable_combo = { ultramarine white ultramarine }
+		randomizable_combo = { white ultramarine ultramarine }
+		randomizable_combo = { liberty white liberty }
+		randomizable_combo = { white liberty black }
+		#WITH CYANS
+		randomizable_combo = { teal white teal }
+		randomizable_combo = { white teal teal }
+		randomizable_combo = { dark_teal white dark_teal }
+		randomizable_combo = { white dark_teal dark_teal }
+		randomizable_combo = { turquoise white turquoise }
+		randomizable_combo = { white turquoise black }
+		randomizable_combo = { cerulean white cerulean }
+		randomizable_combo = { white cerulean black }
+		#WITH GREENS
+		randomizable_combo = { green white green }
+		randomizable_combo = { white green green }
+		randomizable_combo = { dark_green white dark_green }
+		randomizable_combo = { white dark_green dark_green }
+		randomizable_combo = { earth_green white earth_green }
+		randomizable_combo = { white earth_green earth_green }
+		randomizable_combo = { lime_green white lime_green }
+		randomizable_combo = { white lime_green black }
+		#WITH BROWNS
+		randomizable_combo = { brown white brown }
+		randomizable_combo = { white brown brown }
+		randomizable_combo = { dark_brown white dark_brown }
+		randomizable_combo = { white dark_brown black }
+		randomizable_combo = { gray_brown white gray_brown }
+		randomizable_combo = { white gray_brown black }
+		randomizable_combo = { peach white peach }
+		randomizable_combo = { white peach black }
+		#WITH COLORLESS
+		randomizable_combo = { grey white grey }
+		randomizable_combo = { white grey black }
+		randomizable_combo = { dark_grey white grey }
+		randomizable_combo = { white dark_grey black }
+		
+#	DARK GREY
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_grey black }
+		randomizable_combo = { dark_grey yellow black }
+		randomizable_combo = { dijon dark_grey black }
+		randomizable_combo = { dark_grey dijon black }
+		randomizable_combo = { amber dark_grey black }
+		randomizable_combo = { dark_grey amber black }
+		randomizable_combo = { gold dark_grey black }
+		randomizable_combo = { dark_grey gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_grey orange }
+		randomizable_combo = { dark_grey orange orange }
+		randomizable_combo = { bright_orange dark_grey bright_orange }
+		randomizable_combo = { dark_grey bright_orange bright_orange }
+		randomizable_combo = { bold_orange dark_grey bold_orange }
+		randomizable_combo = { dark_grey bold_orange bold_orange }
+		randomizable_combo = { blood_orange dark_grey blood_orange }
+		randomizable_combo = { dark_grey blood_orange blood_orange }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_grey red_orange }
+		randomizable_combo = { dark_grey red_orange red_orange }
+		randomizable_combo = { red dark_grey red }
+		randomizable_combo = { dark_grey red red }
+		randomizable_combo = { true_red dark_grey true_red }
+		randomizable_combo = { dark_grey true_red true_red }
+		randomizable_combo = { burgundy dark_grey burgundy }
+		randomizable_combo = { dark_grey burgundy dark_grey }
+		randomizable_combo = { cardinal dark_grey cardinal }
+		randomizable_combo = { dark_grey cardinal dark_grey }
+		randomizable_combo = { crimson dark_grey crimson }
+		randomizable_combo = { dark_grey crimson dark_grey }
+		randomizable_combo = { auburn dark_grey auburn }
+		randomizable_combo = { dark_grey auburn dark_grey }
+		randomizable_combo = { fire_brick dark_grey fire_brick }
+		randomizable_combo = { dark_grey fire_brick dark_grey }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_grey pink }
+		randomizable_combo = { dark_grey pink dark_grey }
+		randomizable_combo = { dark_magenta dark_grey dark_magenta }
+		randomizable_combo = { dark_grey dark_magenta dark_grey }
+		randomizable_combo = { lilac dark_grey black }
+		randomizable_combo = { dark_grey lilac black }
+		randomizable_combo = { bubblegum dark_grey bubblegum }
+		randomizable_combo = { dark_grey bubblegum dark_grey }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_grey palatinate }
+		randomizable_combo = { dark_grey palatinate dark_grey }
+		randomizable_combo = { indigo dark_grey indigo }
+		randomizable_combo = { dark_grey indigo dark_grey }
+		randomizable_combo = { purple dark_grey purple }
+		randomizable_combo = { dark_grey purple dark_grey }
+		randomizable_combo = { dark_purple dark_grey dark_purple }
+		randomizable_combo = { dark_grey dark_purple dark_grey }
+		#WITH BLUES
+		randomizable_combo = { blue dark_grey blue }
+		randomizable_combo = { dark_grey blue blue }
+		randomizable_combo = { dark_blue dark_grey dark_blue }
+		randomizable_combo = { dark_grey dark_blue dark_blue }
+		randomizable_combo = { light_blue dark_grey light_blue }
+		randomizable_combo = { dark_grey light_blue light_blue }
+		randomizable_combo = { prussian_blue dark_grey prussian_blue }
+		randomizable_combo = { dark_grey prussian_blue dark_grey }
+		randomizable_combo = { ice_blue dark_grey ice_blue }
+		randomizable_combo = { dark_grey ice_blue dark_grey }
+		randomizable_combo = { space_cadet dark_grey space_cadet }
+		randomizable_combo = { dark_grey space_cadet dark_grey }
+		randomizable_combo = { ultramarine dark_grey ultramarine }
+		randomizable_combo = { dark_grey ultramarine ultramarine }
+		randomizable_combo = { liberty dark_grey liberty }
+		randomizable_combo = { dark_grey liberty dark_grey }
+		#WITH CYANS
+		randomizable_combo = { teal dark_grey teal }
+		randomizable_combo = { dark_grey teal teal }
+		randomizable_combo = { dark_teal dark_grey dark_teal }
+		randomizable_combo = { dark_grey dark_teal dark_teal }
+		randomizable_combo = { turquoise dark_grey turquoise }
+		randomizable_combo = { dark_grey turquoise dark_grey }
+		randomizable_combo = { cerulean dark_grey cerulean }
+		randomizable_combo = { dark_grey cerulean dark_grey }
+		#WITH GREENS
+		randomizable_combo = { green dark_grey green }
+		randomizable_combo = { dark_grey green green }
+		randomizable_combo = { dark_green dark_grey dark_green }
+		randomizable_combo = { dark_grey dark_green dark_green }
+		randomizable_combo = { earth_green dark_grey earth_green }
+		randomizable_combo = { dark_grey earth_green earth_green }
+		randomizable_combo = { lime_green dark_grey lime_green }
+		randomizable_combo = { dark_grey lime_green dark_grey }
+		#WITH BROWNS
+		randomizable_combo = { brown dark_grey brown }
+		randomizable_combo = { dark_grey brown brown }
+		randomizable_combo = { dark_brown dark_grey dark_brown }
+		randomizable_combo = { dark_grey dark_brown dark_grey }
+		randomizable_combo = { gray_brown dark_grey gray_brown }
+		randomizable_combo = { dark_grey gray_brown dark_grey }
+		randomizable_combo = { peach dark_grey peach }
+		randomizable_combo = { dark_grey peach dark_grey }
+		#WITH COLORLESS
+		randomizable_combo = { grey dark_grey grey }
+		randomizable_combo = { dark_grey grey dark_grey }
+		
+#	GREY
+		#WITH YELLOWS
+		randomizable_combo = { yellow grey black }
+		randomizable_combo = { grey yellow black }
+		randomizable_combo = { dijon grey black }
+		randomizable_combo = { grey dijon black }
+		randomizable_combo = { amber grey black }
+		randomizable_combo = { grey amber black }
+		randomizable_combo = { gold grey black }
+		randomizable_combo = { grey gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange grey orange }
+		randomizable_combo = { grey orange orange }
+		randomizable_combo = { bright_orange grey bright_orange }
+		randomizable_combo = { grey bright_orange bright_orange }
+		randomizable_combo = { bold_orange grey bold_orange }
+		randomizable_combo = { grey bold_orange bold_orange }
+		randomizable_combo = { blood_orange grey blood_orange }
+		randomizable_combo = { grey blood_orange blood_orange }
+		#WITH REDS
+		randomizable_combo = { red_orange grey red_orange }
+		randomizable_combo = { grey red_orange red_orange }
+		randomizable_combo = { red grey red }
+		randomizable_combo = { grey red red }
+		randomizable_combo = { true_red grey true_red }
+		randomizable_combo = { grey true_red true_red }
+		randomizable_combo = { burgundy grey burgundy }
+		randomizable_combo = { grey burgundy grey }
+		randomizable_combo = { cardinal grey cardinal }
+		randomizable_combo = { grey cardinal grey }
+		randomizable_combo = { crimson grey crimson }
+		randomizable_combo = { grey crimson grey }
+		randomizable_combo = { auburn grey auburn }
+		randomizable_combo = { grey auburn grey }
+		randomizable_combo = { fire_brick grey fire_brick }
+		randomizable_combo = { grey fire_brick grey }
+		#WITH MAGENTAS
+		randomizable_combo = { pink grey pink }
+		randomizable_combo = { grey pink grey }
+		randomizable_combo = { dark_magenta grey dark_magenta }
+		randomizable_combo = { grey dark_magenta grey }
+		randomizable_combo = { lilac grey black }
+		randomizable_combo = { grey lilac black  }
+		randomizable_combo = { bubblegum grey bubblegum }
+		randomizable_combo = { grey bubblegum grey }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate grey palatinate }
+		randomizable_combo = { grey palatinate grey }
+		randomizable_combo = { indigo grey indigo }
+		randomizable_combo = { grey indigo grey }
+		randomizable_combo = { purple grey purple }
+		randomizable_combo = { grey purple grey }
+		randomizable_combo = { dark_purple grey dark_purple }
+		randomizable_combo = { grey dark_purple grey }
+		#WITH BLUES
+		randomizable_combo = { blue grey blue }
+		randomizable_combo = { grey blue blue }
+		randomizable_combo = { dark_blue grey dark_blue }
+		randomizable_combo = { grey dark_blue dark_blue }
+		randomizable_combo = { light_blue grey light_blue }
+		randomizable_combo = { grey light_blue light_blue }
+		randomizable_combo = { prussian_blue grey prussian_blue }
+		randomizable_combo = { grey prussian_blue grey }
+		randomizable_combo = { ice_blue grey ice_blue }
+		randomizable_combo = { grey ice_blue grey }
+		randomizable_combo = { space_cadet grey space_cadet }
+		randomizable_combo = { grey space_cadet grey }
+		randomizable_combo = { ultramarine grey ultramarine }
+		randomizable_combo = { grey ultramarine ultramarine }
+		randomizable_combo = { liberty grey liberty }
+		randomizable_combo = { grey liberty grey }
+		#WITH CYANS
+		randomizable_combo = { teal grey teal }
+		randomizable_combo = { grey teal teal }
+		randomizable_combo = { dark_teal grey dark_teal }
+		randomizable_combo = { grey dark_teal dark_teal }
+		randomizable_combo = { turquoise grey turquoise }
+		randomizable_combo = { grey turquoise grey }
+		randomizable_combo = { cerulean grey cerulean }
+		randomizable_combo = { grey cerulean grey }
+		#WITH GREENS
+		randomizable_combo = { green grey green }
+		randomizable_combo = { grey green green }
+		randomizable_combo = { dark_green grey dark_green }
+		randomizable_combo = { grey dark_green dark_green }
+		randomizable_combo = { earth_green grey earth_green }
+		randomizable_combo = { grey earth_green earth_green }
+		randomizable_combo = { lime_green grey lime_green }
+		randomizable_combo = { grey lime_green grey }
+		#WITH BROWNS
+		randomizable_combo = { brown grey brown }
+		randomizable_combo = { grey brown brown }
+		randomizable_combo = { dark_brown grey dark_brown }
+		randomizable_combo = { grey dark_brown grey }
+		randomizable_combo = { gray_brown grey gray_brown }
+		randomizable_combo = { grey gray_brown grey }
+		randomizable_combo = { peach grey peach }
+		randomizable_combo = { grey peach grey }
+		
+#	PEACH
+		#WITH YELLOWS
+		randomizable_combo = { yellow peach black }
+		randomizable_combo = { peach yellow black }
+		randomizable_combo = { dijon peach black }
+		randomizable_combo = { peach dijon black }
+		randomizable_combo = { amber peach black }
+		randomizable_combo = { peach amber black }
+		randomizable_combo = { gold peach black }
+		randomizable_combo = { peach gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange peach orange }
+		randomizable_combo = { peach orange peach }
+		randomizable_combo = { bright_orange peach bright_orange }
+		randomizable_combo = { peach bright_orange peach }
+		randomizable_combo = { bold_orange peach bold_orange }
+		randomizable_combo = { peach bold_orange peach }
+		randomizable_combo = { blood_orange peach blood_orange }
+		randomizable_combo = { peach blood_orange peach }
+		#WITH REDS
+		randomizable_combo = { red_orange peach red_orange }
+		randomizable_combo = { peach red_orange peach }
+		randomizable_combo = { red peach red }
+		randomizable_combo = { peach red peach }
+		randomizable_combo = { true_red peach true_red }
+		randomizable_combo = { peach true_red peach }
+		randomizable_combo = { burgundy peach burgundy }
+		randomizable_combo = { peach burgundy peach }
+		randomizable_combo = { cardinal peach cardinal }
+		randomizable_combo = { peach cardinal peach }
+		randomizable_combo = { crimson peach crimson }
+		randomizable_combo = { peach crimson peach }
+		randomizable_combo = { auburn peach auburn }
+		randomizable_combo = { peach auburn peach }
+		randomizable_combo = { fire_brick peach fire_brick }
+		randomizable_combo = { peach fire_brick peach }
+		#WITH MAGENTAS
+		randomizable_combo = { pink peach pink }
+		randomizable_combo = { peach pink peach }
+		randomizable_combo = { dark_magenta peach dark_magenta }
+		randomizable_combo = { peach dark_magenta peach }
+		randomizable_combo = { lilac peach black }
+		randomizable_combo = { peach lilac black }
+		randomizable_combo = { bubblegum peach bubblegum }
+		randomizable_combo = { peach bubblegum peach }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate peach palatinate }
+		randomizable_combo = { peach palatinate peach }
+		randomizable_combo = { indigo peach indigo }
+		randomizable_combo = { peach indigo peach }
+		randomizable_combo = { purple peach purple }
+		randomizable_combo = { peach purple peach }
+		randomizable_combo = { dark_purple peach dark_purple }
+		randomizable_combo = { peach dark_purple peach }
+		#WITH BLUES
+		randomizable_combo = { blue peach blue }
+		randomizable_combo = { peach blue peach }
+		randomizable_combo = { dark_blue peach dark_blue }
+		randomizable_combo = { peach dark_blue peach }
+		randomizable_combo = { light_blue peach light_blue }
+		randomizable_combo = { peach light_blue peach }
+		randomizable_combo = { prussian_blue peach prussian_blue }
+		randomizable_combo = { peach prussian_blue peach }
+		randomizable_combo = { ice_blue peach ice_blue }
+		randomizable_combo = { peach ice_blue peach }
+		randomizable_combo = { space_cadet peach space_cadet }
+		randomizable_combo = { peach space_cadet peach }
+		randomizable_combo = { ultramarine peach ultramarine }
+		randomizable_combo = { peach ultramarine peach }
+		randomizable_combo = { liberty peach liberty }
+		randomizable_combo = { peach liberty peach }
+		#WITH CYANS
+		randomizable_combo = { teal peach teal }
+		randomizable_combo = { peach teal peach }
+		randomizable_combo = { dark_teal peach dark_teal }
+		randomizable_combo = { peach dark_teal peach }
+		randomizable_combo = { turquoise peach turquoise }
+		randomizable_combo = { peach turquoise peach }
+		randomizable_combo = { cerulean peach cerulean }
+		randomizable_combo = { peach cerulean peach }
+		#WITH GREENS
+		randomizable_combo = { green peach green }
+		randomizable_combo = { peach green peach }
+		randomizable_combo = { dark_green peach dark_green }
+		randomizable_combo = { peach dark_green peach }
+		randomizable_combo = { earth_green peach earth_green }
+		randomizable_combo = { peach earth_green peach }
+		randomizable_combo = { lime_green peach lime_green }
+		randomizable_combo = { peach lime_green peach }
+		#WITH BROWNS
+		randomizable_combo = { brown peach brown }
+		randomizable_combo = { peach brown peach }
+		randomizable_combo = { dark_brown peach dark_brown }
+		randomizable_combo = { peach dark_brown peach }
+		randomizable_combo = { gray_brown peach gray_brown }
+		randomizable_combo = { peach gray_brown peach }
+
+#	GRAY BROWN
+		#WITH YELLOWS
+		randomizable_combo = { yellow gray_brown black }
+		randomizable_combo = { gray_brown yellow black }
+		randomizable_combo = { dijon gray_brown black }
+		randomizable_combo = { gray_brown dijon black }
+		randomizable_combo = { amber gray_brown black }
+		randomizable_combo = { gray_brown amber black }
+		randomizable_combo = { gold gray_brown black }
+		randomizable_combo = { gray_brown gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange gray_brown orange }
+		randomizable_combo = { gray_brown orange gray_brown }
+		randomizable_combo = { bright_orange gray_brown bright_orange }
+		randomizable_combo = { gray_brown bright_orange gray_brown }
+		randomizable_combo = { bold_orange gray_brown bold_orange }
+		randomizable_combo = { gray_brown bold_orange gray_brown }
+		randomizable_combo = { blood_orange gray_brown blood_orange }
+		randomizable_combo = { gray_brown blood_orange gray_brown }
+		#WITH REDS
+		randomizable_combo = { red_orange gray_brown red_orange }
+		randomizable_combo = { gray_brown red_orange gray_brown }
+		randomizable_combo = { red gray_brown red }
+		randomizable_combo = { gray_brown red gray_brown }
+		randomizable_combo = { true_red gray_brown true_red }
+		randomizable_combo = { gray_brown true_red gray_brown }
+		randomizable_combo = { burgundy gray_brown burgundy }
+		randomizable_combo = { gray_brown burgundy gray_brown }
+		randomizable_combo = { cardinal gray_brown cardinal }
+		randomizable_combo = { gray_brown cardinal gray_brown }
+		randomizable_combo = { crimson gray_brown crimson }
+		randomizable_combo = { gray_brown crimson gray_brown }
+		randomizable_combo = { auburn gray_brown auburn }
+		randomizable_combo = { gray_brown auburn gray_brown }
+		randomizable_combo = { fire_brick gray_brown fire_brick }
+		randomizable_combo = { gray_brown fire_brick gray_brown }
+		#WITH MAGENTAS
+		randomizable_combo = { pink gray_brown pink }
+		randomizable_combo = { gray_brown pink gray_brown }
+		randomizable_combo = { dark_magenta gray_brown dark_magenta }
+		randomizable_combo = { gray_brown dark_magenta gray_brown }
+		randomizable_combo = { lilac gray_brown black }
+		randomizable_combo = { gray_brown lilac black }
+		randomizable_combo = { bubblegum gray_brown bubblegum }
+		randomizable_combo = { gray_brown bubblegum gray_brown }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate gray_brown palatinate }
+		randomizable_combo = { gray_brown palatinate gray_brown }
+		randomizable_combo = { indigo gray_brown indigo }
+		randomizable_combo = { gray_brown indigo gray_brown }
+		randomizable_combo = { purple gray_brown purple }
+		randomizable_combo = { gray_brown purple gray_brown }
+		randomizable_combo = { dark_purple gray_brown dark_purple }
+		randomizable_combo = { gray_brown dark_purple gray_brown }
+		#WITH BLUES
+		randomizable_combo = { blue gray_brown blue }
+		randomizable_combo = { gray_brown blue gray_brown }
+		randomizable_combo = { dark_blue gray_brown dark_blue }
+		randomizable_combo = { gray_brown dark_blue gray_brown }
+		randomizable_combo = { light_blue gray_brown light_blue }
+		randomizable_combo = { gray_brown light_blue gray_brown }
+		randomizable_combo = { prussian_blue gray_brown prussian_blue }
+		randomizable_combo = { gray_brown prussian_blue gray_brown }
+		randomizable_combo = { ice_blue gray_brown ice_blue }
+		randomizable_combo = { gray_brown ice_blue gray_brown }
+		randomizable_combo = { space_cadet gray_brown space_cadet }
+		randomizable_combo = { gray_brown space_cadet gray_brown }
+		randomizable_combo = { ultramarine gray_brown ultramarine }
+		randomizable_combo = { gray_brown ultramarine gray_brown }
+		randomizable_combo = { liberty gray_brown liberty }
+		randomizable_combo = { gray_brown liberty gray_brown }
+		#WITH CYANS
+		randomizable_combo = { teal gray_brown teal }
+		randomizable_combo = { gray_brown teal gray_brown }
+		randomizable_combo = { dark_teal gray_brown dark_teal }
+		randomizable_combo = { gray_brown dark_teal gray_brown }
+		randomizable_combo = { turquoise gray_brown turquoise }
+		randomizable_combo = { gray_brown turquoise gray_brown }
+		randomizable_combo = { cerulean gray_brown cerulean }
+		randomizable_combo = { gray_brown cerulean gray_brown }
+		#WITH GREENS
+		randomizable_combo = { green gray_brown green }
+		randomizable_combo = { gray_brown green gray_brown }
+		randomizable_combo = { dark_green gray_brown dark_green }
+		randomizable_combo = { gray_brown dark_green gray_brown }
+		randomizable_combo = { earth_green gray_brown earth_green }
+		randomizable_combo = { gray_brown earth_green gray_brown }
+		randomizable_combo = { lime_green gray_brown lime_green }
+		randomizable_combo = { gray_brown lime_green gray_brown }
+		#WITH BROWNS
+		randomizable_combo = { brown gray_brown brown }
+		randomizable_combo = { gray_brown brown gray_brown }
+		randomizable_combo = { dark_brown gray_brown dark_brown }
+		randomizable_combo = { gray_brown dark_brown gray_brown }
+
+
+#	DARK BROWN
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_brown black }
+		randomizable_combo = { dark_brown yellow black }
+		randomizable_combo = { dijon dark_brown black }
+		randomizable_combo = { dark_brown dijon black }
+		randomizable_combo = { amber dark_brown black }
+		randomizable_combo = { dark_brown amber black }
+		randomizable_combo = { gold dark_brown black }
+		randomizable_combo = { dark_brown gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_brown orange }
+		randomizable_combo = { dark_brown orange dark_brown }
+		randomizable_combo = { bright_orange dark_brown bright_orange }
+		randomizable_combo = { dark_brown bright_orange dark_brown }
+		randomizable_combo = { bold_orange dark_brown bold_orange }
+		randomizable_combo = { dark_brown bold_orange dark_brown }
+		randomizable_combo = { blood_orange dark_brown blood_orange }
+		randomizable_combo = { dark_brown blood_orange dark_brown }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_brown red_orange }
+		randomizable_combo = { dark_brown red_orange dark_brown }
+		randomizable_combo = { red dark_brown red }
+		randomizable_combo = { dark_brown red dark_brown }
+		randomizable_combo = { true_red dark_brown true_red }
+		randomizable_combo = { dark_brown true_red dark_brown }
+		randomizable_combo = { burgundy dark_brown burgundy }
+		randomizable_combo = { dark_brown burgundy dark_brown }
+		randomizable_combo = { cardinal dark_brown cardinal }
+		randomizable_combo = { dark_brown cardinal dark_brown }
+		randomizable_combo = { crimson dark_brown crimson }
+		randomizable_combo = { dark_brown crimson dark_brown }
+		randomizable_combo = { auburn dark_brown auburn }
+		randomizable_combo = { dark_brown auburn dark_brown }
+		randomizable_combo = { fire_brick dark_brown fire_brick }
+		randomizable_combo = { dark_brown fire_brick dark_brown }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_brown pink }
+		randomizable_combo = { dark_brown pink dark_brown }
+		randomizable_combo = { dark_magenta dark_brown dark_magenta }
+		randomizable_combo = { dark_brown dark_magenta dark_brown }
+		randomizable_combo = { lilac dark_brown lilac }
+		randomizable_combo = { dark_brown lilac dark_brown }
+		randomizable_combo = { bubblegum dark_brown bubblegum }
+		randomizable_combo = { dark_brown bubblegum dark_brown }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_brown palatinate }
+		randomizable_combo = { dark_brown palatinate dark_brown }
+		randomizable_combo = { indigo dark_brown indigo }
+		randomizable_combo = { dark_brown indigo dark_brown }
+		randomizable_combo = { purple dark_brown purple }
+		randomizable_combo = { dark_brown purple dark_brown }
+		randomizable_combo = { dark_purple dark_brown dark_purple }
+		randomizable_combo = { dark_brown dark_purple dark_brown }
+		#WITH BLUES
+		randomizable_combo = { blue dark_brown blue }
+		randomizable_combo = { dark_brown blue dark_brown }
+		randomizable_combo = { dark_blue dark_brown dark_blue }
+		randomizable_combo = { dark_brown dark_blue dark_brown }
+		randomizable_combo = { light_blue dark_brown light_blue }
+		randomizable_combo = { dark_brown light_blue dark_brown }
+		randomizable_combo = { prussian_blue dark_brown prussian_blue }
+		randomizable_combo = { dark_brown prussian_blue dark_brown }
+		randomizable_combo = { ice_blue dark_brown ice_blue }
+		randomizable_combo = { dark_brown ice_blue dark_brown }
+		randomizable_combo = { space_cadet dark_brown space_cadet }
+		randomizable_combo = { dark_brown space_cadet dark_brown }
+		randomizable_combo = { ultramarine dark_brown ultramarine }
+		randomizable_combo = { dark_brown ultramarine dark_brown }
+		randomizable_combo = { liberty dark_brown liberty }
+		randomizable_combo = { dark_brown liberty dark_brown }
+		#WITH CYANS
+		randomizable_combo = { teal dark_brown teal }
+		randomizable_combo = { dark_brown teal dark_brown }
+		randomizable_combo = { dark_teal dark_brown dark_teal }
+		randomizable_combo = { dark_brown dark_teal dark_brown }
+		randomizable_combo = { turquoise dark_brown turquoise }
+		randomizable_combo = { dark_brown turquoise dark_brown }
+		randomizable_combo = { cerulean dark_brown cerulean }
+		randomizable_combo = { dark_brown cerulean dark_brown }
+		#WITH GREENS
+		randomizable_combo = { green dark_brown green }
+		randomizable_combo = { dark_brown green dark_brown }
+		randomizable_combo = { dark_green dark_brown dark_green }
+		randomizable_combo = { dark_brown dark_green dark_brown }
+		randomizable_combo = { earth_green dark_brown earth_green }
+		randomizable_combo = { dark_brown earth_green dark_brown }
+		randomizable_combo = { lime_green dark_brown lime_green }
+		randomizable_combo = { dark_brown lime_green dark_brown }
+		#WITH BROWNS
+		randomizable_combo = { brown dark_brown brown }
+		randomizable_combo = { dark_brown brown dark_brown }
+		
+#	BROWN
+		#WITH YELLOWS
+		randomizable_combo = { yellow brown black }
+		randomizable_combo = { brown yellow black }
+		randomizable_combo = { dijon brown black }
+		randomizable_combo = { brown dijon black }
+		randomizable_combo = { amber brown black }
+		randomizable_combo = { brown amber black }
+		randomizable_combo = { gold brown black }
+		randomizable_combo = { brown gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange brown orange }
+		randomizable_combo = { brown orange brown }
+		randomizable_combo = { bright_orange brown bright_orange }
+		randomizable_combo = { brown bright_orange brown }
+		randomizable_combo = { bold_orange brown bold_orange }
+		randomizable_combo = { brown bold_orange brown }
+		randomizable_combo = { blood_orange brown blood_orange }
+		randomizable_combo = { brown blood_orange brown }
+		#WITH REDS
+		randomizable_combo = { red_orange brown red_orange }
+		randomizable_combo = { brown red_orange brown }
+		randomizable_combo = { red brown red }
+		randomizable_combo = { brown red brown }
+		randomizable_combo = { true_red brown true_red }
+		randomizable_combo = { brown true_red brown }
+		randomizable_combo = { burgundy brown burgundy }
+		randomizable_combo = { brown burgundy brown }
+		randomizable_combo = { cardinal brown cardinal }
+		randomizable_combo = { brown cardinal brown }
+		randomizable_combo = { crimson brown crimson }
+		randomizable_combo = { brown crimson brown }
+		randomizable_combo = { auburn brown auburn }
+		randomizable_combo = { brown auburn brown }
+		randomizable_combo = { fire_brick brown fire_brick }
+		randomizable_combo = { brown fire_brick brown }
+		#WITH MAGENTAS
+		randomizable_combo = { pink brown pink }
+		randomizable_combo = { brown pink brown }
+		randomizable_combo = { dark_magenta brown dark_magenta }
+		randomizable_combo = { brown dark_magenta brown }
+		randomizable_combo = { lilac brown lilac }
+		randomizable_combo = { brown lilac brown }
+		randomizable_combo = { bubblegum brown bubblegum }
+		randomizable_combo = { brown bubblegum brown }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate brown palatinate }
+		randomizable_combo = { brown palatinate brown }
+		randomizable_combo = { indigo brown indigo }
+		randomizable_combo = { brown indigo brown }
+		randomizable_combo = { purple brown purple }
+		randomizable_combo = { brown purple brown }
+		randomizable_combo = { dark_purple brown dark_purple }
+		randomizable_combo = { brown dark_purple brown }
+		#WITH BLUES
+		randomizable_combo = { blue brown blue }
+		randomizable_combo = { brown blue brown }
+		randomizable_combo = { dark_blue brown dark_blue }
+		randomizable_combo = { brown dark_blue brown }
+		randomizable_combo = { light_blue brown light_blue }
+		randomizable_combo = { brown light_blue brown }
+		randomizable_combo = { prussian_blue brown prussian_blue }
+		randomizable_combo = { brown prussian_blue brown }
+		randomizable_combo = { ice_blue brown ice_blue }
+		randomizable_combo = { brown ice_blue brown }
+		randomizable_combo = { space_cadet brown space_cadet }
+		randomizable_combo = { brown space_cadet brown }
+		randomizable_combo = { ultramarine brown ultramarine }
+		randomizable_combo = { brown ultramarine brown }
+		randomizable_combo = { liberty brown liberty }
+		randomizable_combo = { brown liberty brown }
+		#WITH CYANS
+		randomizable_combo = { teal brown teal }
+		randomizable_combo = { brown teal brown }
+		randomizable_combo = { dark_teal brown dark_teal }
+		randomizable_combo = { brown dark_teal brown }
+		randomizable_combo = { turquoise brown turquoise }
+		randomizable_combo = { brown turquoise brown }
+		randomizable_combo = { cerulean brown cerulean }
+		randomizable_combo = { brown cerulean brown }
+		#WITH GREENS
+		randomizable_combo = { green brown green }
+		randomizable_combo = { brown green brown }
+		randomizable_combo = { dark_green brown dark_green }
+		randomizable_combo = { brown dark_green brown }
+		randomizable_combo = { earth_green brown earth_green }
+		randomizable_combo = { brown earth_green brown }
+		randomizable_combo = { lime_green brown lime_green }
+		randomizable_combo = { brown lime_green brown }
+		
+#	LIME GREEN
+		#WITH YELLOWS
+		randomizable_combo = { yellow lime_green black }
+		randomizable_combo = { lime_green yellow black }
+		randomizable_combo = { dijon lime_green black }
+		randomizable_combo = { lime_green dijon black }
+		randomizable_combo = { amber lime_green black }
+		randomizable_combo = { lime_green amber black }
+		randomizable_combo = { gold lime_green black }
+		randomizable_combo = { lime_green gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange lime_green orange }
+		randomizable_combo = { lime_green orange lime_green }
+		randomizable_combo = { bright_orange lime_green bright_orange }
+		randomizable_combo = { lime_green bright_orange lime_green }
+		randomizable_combo = { bold_orange lime_green bold_orange }
+		randomizable_combo = { lime_green bold_orange lime_green }
+		randomizable_combo = { blood_orange lime_green blood_orange }
+		randomizable_combo = { lime_green blood_orange lime_green }
+		#WITH REDS
+		randomizable_combo = { red_orange lime_green red_orange }
+		randomizable_combo = { lime_green red_orange lime_green }
+		randomizable_combo = { red lime_green red }
+		randomizable_combo = { lime_green red lime_green }
+		randomizable_combo = { true_red lime_green true_red }
+		randomizable_combo = { lime_green true_red lime_green }
+		randomizable_combo = { burgundy lime_green burgundy }
+		randomizable_combo = { lime_green burgundy lime_green }
+		randomizable_combo = { cardinal lime_green cardinal }
+		randomizable_combo = { lime_green cardinal lime_green }
+		randomizable_combo = { crimson lime_green crimson }
+		randomizable_combo = { lime_green crimson lime_green }
+		randomizable_combo = { auburn lime_green auburn }
+		randomizable_combo = { lime_green auburn lime_green }
+		randomizable_combo = { fire_brick lime_green fire_brick }
+		randomizable_combo = { lime_green fire_brick lime_green }
+		#WITH MAGENTAS
+		randomizable_combo = { pink lime_green pink }
+		randomizable_combo = { lime_green pink lime_green }
+		randomizable_combo = { dark_magenta lime_green dark_magenta }
+		randomizable_combo = { lime_green dark_magenta lime_green }
+		randomizable_combo = { lilac lime_green lilac }
+		randomizable_combo = { lime_green lilac lime_green }
+		randomizable_combo = { bubblegum lime_green bubblegum }
+		randomizable_combo = { lime_green bubblegum lime_green }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate lime_green palatinate }
+		randomizable_combo = { lime_green palatinate lime_green }
+		randomizable_combo = { indigo lime_green indigo }
+		randomizable_combo = { lime_green indigo lime_green }
+		randomizable_combo = { purple lime_green purple }
+		randomizable_combo = { lime_green purple lime_green }
+		randomizable_combo = { dark_purple lime_green dark_purple }
+		randomizable_combo = { lime_green dark_purple lime_green }
+		#WITH BLUES
+		randomizable_combo = { blue lime_green blue }
+		randomizable_combo = { lime_green blue lime_green }
+		randomizable_combo = { dark_blue lime_green dark_blue }
+		randomizable_combo = { lime_green dark_blue lime_green }
+		randomizable_combo = { light_blue lime_green light_blue }
+		randomizable_combo = { lime_green light_blue lime_green }
+		randomizable_combo = { prussian_blue lime_green prussian_blue }
+		randomizable_combo = { lime_green prussian_blue lime_green }
+		randomizable_combo = { ice_blue lime_green ice_blue }
+		randomizable_combo = { lime_green ice_blue lime_green }
+		randomizable_combo = { space_cadet lime_green space_cadet }
+		randomizable_combo = { lime_green space_cadet lime_green }
+		randomizable_combo = { ultramarine lime_green ultramarine }
+		randomizable_combo = { lime_green ultramarine lime_green }
+		randomizable_combo = { liberty lime_green liberty }
+		randomizable_combo = { lime_green liberty lime_green }
+		#WITH CYANS
+		randomizable_combo = { teal lime_green teal }
+		randomizable_combo = { lime_green teal lime_green }
+		randomizable_combo = { dark_teal lime_green dark_teal }
+		randomizable_combo = { lime_green dark_teal lime_green }
+		randomizable_combo = { turquoise lime_green turquoise }
+		randomizable_combo = { lime_green turquoise lime_green }
+		randomizable_combo = { cerulean lime_green cerulean }
+		randomizable_combo = { lime_green cerulean lime_green }
+		#WITH GREENS
+		randomizable_combo = { green lime_green green }
+		randomizable_combo = { lime_green green lime_green }
+		randomizable_combo = { dark_green lime_green dark_green }
+		randomizable_combo = { lime_green dark_green lime_green }
+		randomizable_combo = { earth_green lime_green earth_green }
+		randomizable_combo = { lime_green earth_green lime_green }
+		
+#	EARTH GREEN
+		#WITH YELLOWS
+		randomizable_combo = { yellow earth_green black }
+		randomizable_combo = { earth_green yellow black }
+		randomizable_combo = { dijon earth_green black }
+		randomizable_combo = { earth_green dijon black }
+		randomizable_combo = { amber earth_green black }
+		randomizable_combo = { earth_green amber black }
+		randomizable_combo = { gold earth_green black }
+		randomizable_combo = { earth_green gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange earth_green orange }
+		randomizable_combo = { earth_green orange earth_green }
+		randomizable_combo = { bright_orange earth_green bright_orange }
+		randomizable_combo = { earth_green bright_orange earth_green }
+		randomizable_combo = { bold_orange earth_green bold_orange }
+		randomizable_combo = { earth_green bold_orange earth_green }
+		randomizable_combo = { blood_orange earth_green blood_orange }
+		randomizable_combo = { earth_green blood_orange earth_green }
+		#WITH REDS
+		randomizable_combo = { red_orange earth_green red_orange }
+		randomizable_combo = { earth_green red_orange earth_green }
+		randomizable_combo = { red earth_green red }
+		randomizable_combo = { earth_green red earth_green }
+		randomizable_combo = { true_red earth_green true_red }
+		randomizable_combo = { earth_green true_red earth_green }
+		randomizable_combo = { burgundy earth_green burgundy }
+		randomizable_combo = { earth_green burgundy earth_green }
+		randomizable_combo = { cardinal earth_green cardinal }
+		randomizable_combo = { earth_green cardinal earth_green }
+		randomizable_combo = { crimson earth_green crimson }
+		randomizable_combo = { earth_green crimson earth_green }
+		randomizable_combo = { auburn earth_green auburn }
+		randomizable_combo = { earth_green auburn earth_green }
+		randomizable_combo = { fire_brick earth_green fire_brick }
+		randomizable_combo = { earth_green fire_brick earth_green }
+		#WITH MAGENTAS
+		randomizable_combo = { pink earth_green pink }
+		randomizable_combo = { earth_green pink earth_green }
+		randomizable_combo = { dark_magenta earth_green dark_magenta }
+		randomizable_combo = { earth_green dark_magenta earth_green }
+		randomizable_combo = { lilac earth_green lilac }
+		randomizable_combo = { earth_green lilac earth_green }
+		randomizable_combo = { bubblegum earth_green bubblegum }
+		randomizable_combo = { earth_green bubblegum earth_green }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate earth_green palatinate }
+		randomizable_combo = { earth_green palatinate earth_green }
+		randomizable_combo = { indigo earth_green indigo }
+		randomizable_combo = { earth_green indigo earth_green }
+		randomizable_combo = { purple earth_green purple }
+		randomizable_combo = { earth_green purple earth_green }
+		randomizable_combo = { dark_purple earth_green dark_purple }
+		randomizable_combo = { earth_green dark_purple earth_green }
+		#WITH BLUES
+		randomizable_combo = { blue earth_green blue }
+		randomizable_combo = { earth_green blue earth_green }
+		randomizable_combo = { dark_blue earth_green dark_blue }
+		randomizable_combo = { earth_green dark_blue earth_green }
+		randomizable_combo = { light_blue earth_green light_blue }
+		randomizable_combo = { earth_green light_blue earth_green }
+		randomizable_combo = { prussian_blue earth_green prussian_blue }
+		randomizable_combo = { earth_green prussian_blue earth_green }
+		randomizable_combo = { ice_blue earth_green ice_blue }
+		randomizable_combo = { earth_green ice_blue earth_green }
+		randomizable_combo = { space_cadet earth_green space_cadet }
+		randomizable_combo = { earth_green space_cadet earth_green }
+		randomizable_combo = { ultramarine earth_green ultramarine }
+		randomizable_combo = { earth_green ultramarine earth_green }
+		randomizable_combo = { liberty earth_green liberty }
+		randomizable_combo = { earth_green liberty earth_green }
+		#WITH CYANS
+		randomizable_combo = { teal earth_green teal }
+		randomizable_combo = { earth_green teal earth_green }
+		randomizable_combo = { dark_teal earth_green dark_teal }
+		randomizable_combo = { earth_green dark_teal earth_green }
+		randomizable_combo = { turquoise earth_green turquoise }
+		randomizable_combo = { earth_green turquoise earth_green }
+		randomizable_combo = { cerulean earth_green cerulean }
+		randomizable_combo = { earth_green cerulean earth_green }
+		#WITH GREENS
+		randomizable_combo = { green earth_green green }
+		randomizable_combo = { earth_green green earth_green }
+		randomizable_combo = { dark_green earth_green dark_green }
+		randomizable_combo = { earth_green dark_green earth_green }
+		
+#	DARK GREEN
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_green black }
+		randomizable_combo = { dark_green yellow black }
+		randomizable_combo = { dijon dark_green black }
+		randomizable_combo = { dark_green dijon black }
+		randomizable_combo = { amber dark_green black }
+		randomizable_combo = { dark_green amber black }
+		randomizable_combo = { gold dark_green black }
+		randomizable_combo = { dark_green gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_green orange }
+		randomizable_combo = { dark_green orange dark_green }
+		randomizable_combo = { bright_orange dark_green bright_orange }
+		randomizable_combo = { dark_green bright_orange dark_green }
+		randomizable_combo = { bold_orange dark_green bold_orange }
+		randomizable_combo = { dark_green bold_orange dark_green }
+		randomizable_combo = { blood_orange dark_green blood_orange }
+		randomizable_combo = { dark_green blood_orange dark_green }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_green red_orange }
+		randomizable_combo = { dark_green red_orange dark_green }
+		randomizable_combo = { red dark_green red }
+		randomizable_combo = { dark_green red dark_green }
+		randomizable_combo = { true_red dark_green true_red }
+		randomizable_combo = { dark_green true_red dark_green }
+		randomizable_combo = { burgundy dark_green burgundy }
+		randomizable_combo = { dark_green burgundy dark_green }
+		randomizable_combo = { cardinal dark_green cardinal }
+		randomizable_combo = { dark_green cardinal dark_green }
+		randomizable_combo = { crimson dark_green crimson }
+		randomizable_combo = { dark_green crimson dark_green }
+		randomizable_combo = { auburn dark_green auburn }
+		randomizable_combo = { dark_green auburn dark_green }
+		randomizable_combo = { fire_brick dark_green fire_brick }
+		randomizable_combo = { dark_green fire_brick dark_green }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_green pink }
+		randomizable_combo = { dark_green pink dark_green }
+		randomizable_combo = { dark_magenta dark_green dark_magenta }
+		randomizable_combo = { dark_green dark_magenta dark_green }
+		randomizable_combo = { lilac dark_green lilac }
+		randomizable_combo = { dark_green lilac dark_green }
+		randomizable_combo = { bubblegum dark_green bubblegum }
+		randomizable_combo = { dark_green bubblegum dark_green }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_green palatinate }
+		randomizable_combo = { dark_green palatinate dark_green }
+		randomizable_combo = { indigo dark_green indigo }
+		randomizable_combo = { dark_green indigo dark_green }
+		randomizable_combo = { purple dark_green purple }
+		randomizable_combo = { dark_green purple dark_green }
+		randomizable_combo = { dark_purple dark_green dark_purple }
+		randomizable_combo = { dark_green dark_purple dark_green }
+		#WITH BLUES
+		randomizable_combo = { blue dark_green blue }
+		randomizable_combo = { dark_green blue dark_green }
+		randomizable_combo = { dark_blue dark_green dark_blue }
+		randomizable_combo = { dark_green dark_blue dark_green }
+		randomizable_combo = { light_blue dark_green light_blue }
+		randomizable_combo = { dark_green light_blue dark_green }
+		randomizable_combo = { prussian_blue dark_green prussian_blue }
+		randomizable_combo = { dark_green prussian_blue dark_green }
+		randomizable_combo = { ice_blue dark_green ice_blue }
+		randomizable_combo = { dark_green ice_blue dark_green }
+		randomizable_combo = { space_cadet dark_green space_cadet }
+		randomizable_combo = { dark_green space_cadet dark_green }
+		randomizable_combo = { ultramarine dark_green ultramarine }
+		randomizable_combo = { dark_green ultramarine dark_green }
+		randomizable_combo = { liberty dark_green liberty }
+		randomizable_combo = { dark_green liberty dark_green }
+		#WITH CYANS
+		randomizable_combo = { teal dark_green teal }
+		randomizable_combo = { dark_green teal dark_green }
+		randomizable_combo = { dark_teal dark_green dark_teal }
+		randomizable_combo = { dark_green dark_teal dark_green }
+		randomizable_combo = { turquoise dark_green turquoise }
+		randomizable_combo = { dark_green turquoise dark_green }
+		randomizable_combo = { cerulean dark_green cerulean }
+		randomizable_combo = { dark_green cerulean dark_green }
+		#WITH GREENS
+		randomizable_combo = { green dark_green green }
+		randomizable_combo = { dark_green green dark_green }
+		
+#	GREEN
+		#WITH YELLOWS
+		randomizable_combo = { yellow green black }
+		randomizable_combo = { green yellow black }
+		randomizable_combo = { dijon green black }
+		randomizable_combo = { green dijon black }
+		randomizable_combo = { amber green black }
+		randomizable_combo = { green amber black }
+		randomizable_combo = { gold green black }
+		randomizable_combo = { green gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange green orange }
+		randomizable_combo = { green orange green }
+		randomizable_combo = { bright_orange green bright_orange }
+		randomizable_combo = { green bright_orange green }
+		randomizable_combo = { bold_orange green bold_orange }
+		randomizable_combo = { green bold_orange green }
+		randomizable_combo = { blood_orange green blood_orange }
+		randomizable_combo = { green blood_orange green }
+		#WITH REDS
+		randomizable_combo = { red_orange green red_orange }
+		randomizable_combo = { green red_orange green }
+		randomizable_combo = { red green red }
+		randomizable_combo = { green red green }
+		randomizable_combo = { true_red green true_red }
+		randomizable_combo = { green true_red green }
+		randomizable_combo = { burgundy green burgundy }
+		randomizable_combo = { green burgundy green }
+		randomizable_combo = { cardinal green cardinal }
+		randomizable_combo = { green cardinal green }
+		randomizable_combo = { crimson green crimson }
+		randomizable_combo = { green crimson green }
+		randomizable_combo = { auburn green auburn }
+		randomizable_combo = { green auburn green }
+		randomizable_combo = { fire_brick green fire_brick }
+		randomizable_combo = { green fire_brick green }
+		#WITH MAGENTAS
+		randomizable_combo = { pink green pink }
+		randomizable_combo = { green pink green }
+		randomizable_combo = { dark_magenta green dark_magenta }
+		randomizable_combo = { green dark_magenta green }
+		randomizable_combo = { lilac green lilac }
+		randomizable_combo = { green lilac green }
+		randomizable_combo = { bubblegum green bubblegum }
+		randomizable_combo = { green bubblegum green }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate green palatinate }
+		randomizable_combo = { green palatinate green }
+		randomizable_combo = { indigo green indigo }
+		randomizable_combo = { green indigo green }
+		randomizable_combo = { purple green purple }
+		randomizable_combo = { green purple green }
+		randomizable_combo = { dark_purple green dark_purple }
+		randomizable_combo = { green dark_purple green }
+		#WITH BLUES
+		randomizable_combo = { blue green blue }
+		randomizable_combo = { green blue green }
+		randomizable_combo = { dark_blue green dark_blue }
+		randomizable_combo = { green dark_blue green }
+		randomizable_combo = { light_blue green light_blue }
+		randomizable_combo = { green light_blue green }
+		randomizable_combo = { prussian_blue green prussian_blue }
+		randomizable_combo = { green prussian_blue green }
+		randomizable_combo = { ice_blue green ice_blue }
+		randomizable_combo = { green ice_blue green }
+		randomizable_combo = { space_cadet green space_cadet }
+		randomizable_combo = { green space_cadet green }
+		randomizable_combo = { ultramarine green ultramarine }
+		randomizable_combo = { green ultramarine green }
+		randomizable_combo = { liberty green liberty }
+		randomizable_combo = { green liberty green }
+		#WITH CYANS
+		randomizable_combo = { teal green teal }
+		randomizable_combo = { green teal green }
+		randomizable_combo = { dark_teal green dark_teal }
+		randomizable_combo = { green dark_teal green }
+		randomizable_combo = { turquoise green turquoise }
+		randomizable_combo = { green turquoise green }
+		randomizable_combo = { cerulean green cerulean }
+		randomizable_combo = { green cerulean green }
+
+#	CERULEAN
+		#WITH YELLOWS
+		randomizable_combo = { yellow cerulean black }
+		randomizable_combo = { cerulean yellow black }
+		randomizable_combo = { dijon cerulean black }
+		randomizable_combo = { cerulean dijon black }
+		randomizable_combo = { amber cerulean black }
+		randomizable_combo = { cerulean amber black }
+		randomizable_combo = { gold cerulean black }
+		randomizable_combo = { cerulean gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange cerulean orange }
+		randomizable_combo = { cerulean orange cerulean }
+		randomizable_combo = { bright_orange cerulean bright_orange }
+		randomizable_combo = { cerulean bright_orange cerulean }
+		randomizable_combo = { bold_orange cerulean bold_orange }
+		randomizable_combo = { cerulean bold_orange cerulean }
+		randomizable_combo = { blood_orange cerulean blood_orange }
+		randomizable_combo = { cerulean blood_orange cerulean }
+		#WITH REDS
+		randomizable_combo = { red_orange cerulean red_orange }
+		randomizable_combo = { cerulean red_orange cerulean }
+		randomizable_combo = { red cerulean red }
+		randomizable_combo = { cerulean red cerulean }
+		randomizable_combo = { true_red cerulean true_red }
+		randomizable_combo = { cerulean true_red cerulean }
+		randomizable_combo = { burgundy cerulean burgundy }
+		randomizable_combo = { cerulean burgundy cerulean }
+		randomizable_combo = { cardinal cerulean cardinal }
+		randomizable_combo = { cerulean cardinal cerulean }
+		randomizable_combo = { crimson cerulean crimson }
+		randomizable_combo = { cerulean crimson cerulean }
+		randomizable_combo = { auburn cerulean auburn }
+		randomizable_combo = { cerulean auburn cerulean }
+		randomizable_combo = { fire_brick cerulean fire_brick }
+		randomizable_combo = { cerulean fire_brick cerulean }
+		#WITH MAGENTAS
+		randomizable_combo = { pink cerulean pink }
+		randomizable_combo = { cerulean pink cerulean }
+		randomizable_combo = { dark_magenta cerulean dark_magenta }
+		randomizable_combo = { cerulean dark_magenta cerulean }
+		randomizable_combo = { lilac cerulean lilac }
+		randomizable_combo = { cerulean lilac cerulean }
+		randomizable_combo = { bubblegum cerulean bubblegum }
+		randomizable_combo = { cerulean bubblegum cerulean }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate cerulean palatinate }
+		randomizable_combo = { cerulean palatinate cerulean }
+		randomizable_combo = { indigo cerulean indigo }
+		randomizable_combo = { cerulean indigo cerulean }
+		randomizable_combo = { purple cerulean purple }
+		randomizable_combo = { cerulean purple cerulean }
+		randomizable_combo = { dark_purple cerulean dark_purple }
+		randomizable_combo = { cerulean dark_purple cerulean }
+		#WITH BLUES
+		randomizable_combo = { blue cerulean blue }
+		randomizable_combo = { cerulean blue cerulean }
+		randomizable_combo = { dark_blue cerulean dark_blue }
+		randomizable_combo = { cerulean dark_blue cerulean }
+		randomizable_combo = { light_blue cerulean light_blue }
+		randomizable_combo = { cerulean light_blue cerulean }
+		randomizable_combo = { prussian_blue cerulean prussian_blue }
+		randomizable_combo = { cerulean prussian_blue cerulean }
+		randomizable_combo = { ice_blue cerulean ice_blue }
+		randomizable_combo = { cerulean ice_blue cerulean }
+		randomizable_combo = { space_cadet cerulean space_cadet }
+		randomizable_combo = { cerulean space_cadet cerulean }
+		randomizable_combo = { ultramarine cerulean ultramarine }
+		randomizable_combo = { cerulean ultramarine cerulean }
+		randomizable_combo = { liberty cerulean liberty }
+		randomizable_combo = { cerulean liberty cerulean }
+		#WITH CYANS
+		randomizable_combo = { teal cerulean teal }
+		randomizable_combo = { cerulean teal cerulean }
+		randomizable_combo = { dark_teal cerulean dark_teal }
+		randomizable_combo = { cerulean dark_teal cerulean }
+		randomizable_combo = { turquoise cerulean turquoise }
+		randomizable_combo = { cerulean turquoise cerulean }
+		
+#	TURQUOISE
+		#WITH YELLOWS
+		randomizable_combo = { yellow turquoise black }
+		randomizable_combo = { turquoise yellow black }
+		randomizable_combo = { dijon turquoise black }
+		randomizable_combo = { turquoise dijon black }
+		randomizable_combo = { amber turquoise black }
+		randomizable_combo = { turquoise amber black }
+		randomizable_combo = { gold turquoise black }
+		randomizable_combo = { turquoise gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange turquoise orange }
+		randomizable_combo = { turquoise orange turquoise }
+		randomizable_combo = { bright_orange turquoise bright_orange }
+		randomizable_combo = { turquoise bright_orange turquoise }
+		randomizable_combo = { bold_orange turquoise bold_orange }
+		randomizable_combo = { turquoise bold_orange turquoise }
+		randomizable_combo = { blood_orange turquoise blood_orange }
+		randomizable_combo = { turquoise blood_orange turquoise }
+		#WITH REDS
+		randomizable_combo = { red_orange turquoise red_orange }
+		randomizable_combo = { turquoise red_orange turquoise }
+		randomizable_combo = { red turquoise red }
+		randomizable_combo = { turquoise red turquoise }
+		randomizable_combo = { true_red turquoise true_red }
+		randomizable_combo = { turquoise true_red turquoise }
+		randomizable_combo = { burgundy turquoise burgundy }
+		randomizable_combo = { turquoise burgundy turquoise }
+		randomizable_combo = { cardinal turquoise cardinal }
+		randomizable_combo = { turquoise cardinal turquoise }
+		randomizable_combo = { crimson turquoise crimson }
+		randomizable_combo = { turquoise crimson turquoise }
+		randomizable_combo = { auburn turquoise auburn }
+		randomizable_combo = { turquoise auburn turquoise }
+		randomizable_combo = { fire_brick turquoise fire_brick }
+		randomizable_combo = { turquoise fire_brick turquoise }
+		#WITH MAGENTAS
+		randomizable_combo = { pink turquoise pink }
+		randomizable_combo = { turquoise pink turquoise }
+		randomizable_combo = { dark_magenta turquoise dark_magenta }
+		randomizable_combo = { turquoise dark_magenta turquoise }
+		randomizable_combo = { lilac turquoise lilac }
+		randomizable_combo = { turquoise lilac turquoise }
+		randomizable_combo = { bubblegum turquoise bubblegum }
+		randomizable_combo = { turquoise bubblegum turquoise }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate turquoise palatinate }
+		randomizable_combo = { turquoise palatinate turquoise }
+		randomizable_combo = { indigo turquoise indigo }
+		randomizable_combo = { turquoise indigo turquoise }
+		randomizable_combo = { purple turquoise purple }
+		randomizable_combo = { turquoise purple turquoise }
+		randomizable_combo = { dark_purple turquoise dark_purple }
+		randomizable_combo = { turquoise dark_purple turquoise }
+		#WITH BLUES
+		randomizable_combo = { blue turquoise blue }
+		randomizable_combo = { turquoise blue turquoise }
+		randomizable_combo = { dark_blue turquoise dark_blue }
+		randomizable_combo = { turquoise dark_blue turquoise }
+		randomizable_combo = { light_blue turquoise light_blue }
+		randomizable_combo = { turquoise light_blue turquoise }
+		randomizable_combo = { prussian_blue turquoise prussian_blue }
+		randomizable_combo = { turquoise prussian_blue turquoise }
+		randomizable_combo = { ice_blue turquoise ice_blue }
+		randomizable_combo = { turquoise ice_blue turquoise }
+		randomizable_combo = { space_cadet turquoise space_cadet }
+		randomizable_combo = { turquoise space_cadet turquoise }
+		randomizable_combo = { ultramarine turquoise ultramarine }
+		randomizable_combo = { turquoise ultramarine turquoise }
+		randomizable_combo = { liberty turquoise liberty }
+		randomizable_combo = { turquoise liberty turquoise }
+		#WITH CYANS
+		randomizable_combo = { teal turquoise teal }
+		randomizable_combo = { turquoise teal turquoise }
+		randomizable_combo = { dark_teal turquoise dark_teal }
+		randomizable_combo = { turquoise dark_teal turquoise }
+		
+#	DARK TEAL
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_teal black }
+		randomizable_combo = { dark_teal yellow black }
+		randomizable_combo = { dijon dark_teal black }
+		randomizable_combo = { dark_teal dijon black }
+		randomizable_combo = { amber dark_teal black }
+		randomizable_combo = { dark_teal amber black }
+		randomizable_combo = { gold dark_teal black }
+		randomizable_combo = { dark_teal gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_teal orange }
+		randomizable_combo = { dark_teal orange dark_teal }
+		randomizable_combo = { bright_orange dark_teal bright_orange }
+		randomizable_combo = { dark_teal bright_orange dark_teal }
+		randomizable_combo = { bold_orange dark_teal bold_orange }
+		randomizable_combo = { dark_teal bold_orange dark_teal }
+		randomizable_combo = { blood_orange dark_teal blood_orange }
+		randomizable_combo = { dark_teal blood_orange dark_teal }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_teal red_orange }
+		randomizable_combo = { dark_teal red_orange dark_teal }
+		randomizable_combo = { red dark_teal red }
+		randomizable_combo = { dark_teal red dark_teal }
+		randomizable_combo = { true_red dark_teal true_red }
+		randomizable_combo = { dark_teal true_red dark_teal }
+		randomizable_combo = { burgundy dark_teal burgundy }
+		randomizable_combo = { dark_teal burgundy dark_teal }
+		randomizable_combo = { cardinal dark_teal cardinal }
+		randomizable_combo = { dark_teal cardinal dark_teal }
+		randomizable_combo = { crimson dark_teal crimson }
+		randomizable_combo = { dark_teal crimson dark_teal }
+		randomizable_combo = { auburn dark_teal auburn }
+		randomizable_combo = { dark_teal auburn dark_teal }
+		randomizable_combo = { fire_brick dark_teal fire_brick }
+		randomizable_combo = { dark_teal fire_brick dark_teal }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_teal pink }
+		randomizable_combo = { dark_teal pink dark_teal }
+		randomizable_combo = { dark_magenta dark_teal dark_magenta }
+		randomizable_combo = { dark_teal dark_magenta dark_teal }
+		randomizable_combo = { lilac dark_teal lilac }
+		randomizable_combo = { dark_teal lilac dark_teal }
+		randomizable_combo = { bubblegum dark_teal bubblegum }
+		randomizable_combo = { dark_teal bubblegum dark_teal }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_teal palatinate }
+		randomizable_combo = { dark_teal palatinate dark_teal }
+		randomizable_combo = { indigo dark_teal indigo }
+		randomizable_combo = { dark_teal indigo dark_teal }
+		randomizable_combo = { purple dark_teal purple }
+		randomizable_combo = { dark_teal purple dark_teal }
+		randomizable_combo = { dark_purple dark_teal dark_purple }
+		randomizable_combo = { dark_teal dark_purple dark_teal }
+		#WITH BLUES
+		randomizable_combo = { blue dark_teal blue }
+		randomizable_combo = { dark_teal blue dark_teal }
+		randomizable_combo = { dark_blue dark_teal dark_blue }
+		randomizable_combo = { dark_teal dark_blue dark_teal }
+		randomizable_combo = { light_blue dark_teal light_blue }
+		randomizable_combo = { dark_teal light_blue dark_teal }
+		randomizable_combo = { prussian_blue dark_teal prussian_blue }
+		randomizable_combo = { dark_teal prussian_blue dark_teal }
+		randomizable_combo = { ice_blue dark_teal ice_blue }
+		randomizable_combo = { dark_teal ice_blue dark_teal }
+		randomizable_combo = { space_cadet dark_teal space_cadet }
+		randomizable_combo = { dark_teal space_cadet dark_teal }
+		randomizable_combo = { ultramarine dark_teal ultramarine }
+		randomizable_combo = { dark_teal ultramarine dark_teal }
+		randomizable_combo = { liberty dark_teal liberty }
+		randomizable_combo = { dark_teal liberty dark_teal }
+		#WITH CYANS
+		randomizable_combo = { teal dark_teal teal }
+		randomizable_combo = { dark_teal teal dark_teal }
+
+#	TEAL
+		#WITH YELLOWS
+		randomizable_combo = { yellow teal black }
+		randomizable_combo = { teal yellow black }
+		randomizable_combo = { dijon teal black }
+		randomizable_combo = { teal dijon black }
+		randomizable_combo = { amber teal black }
+		randomizable_combo = { teal amber black }
+		randomizable_combo = { gold teal black }
+		randomizable_combo = { teal gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange teal orange }
+		randomizable_combo = { teal orange teal }
+		randomizable_combo = { bright_orange teal bright_orange }
+		randomizable_combo = { teal bright_orange teal }
+		randomizable_combo = { bold_orange teal bold_orange }
+		randomizable_combo = { teal bold_orange teal }
+		randomizable_combo = { blood_orange teal blood_orange }
+		randomizable_combo = { teal blood_orange teal }
+		#WITH REDS
+		randomizable_combo = { red_orange teal red_orange }
+		randomizable_combo = { teal red_orange teal }
+		randomizable_combo = { red teal red }
+		randomizable_combo = { teal red teal }
+		randomizable_combo = { true_red teal true_red }
+		randomizable_combo = { teal true_red teal }
+		randomizable_combo = { burgundy teal burgundy }
+		randomizable_combo = { teal burgundy teal }
+		randomizable_combo = { cardinal teal cardinal }
+		randomizable_combo = { teal cardinal teal }
+		randomizable_combo = { crimson teal crimson }
+		randomizable_combo = { teal crimson teal }
+		randomizable_combo = { auburn teal auburn }
+		randomizable_combo = { teal auburn teal }
+		randomizable_combo = { fire_brick teal fire_brick }
+		randomizable_combo = { teal fire_brick teal }
+		#WITH MAGENTAS
+		randomizable_combo = { pink teal pink }
+		randomizable_combo = { teal pink teal }
+		randomizable_combo = { dark_magenta teal dark_magenta }
+		randomizable_combo = { teal dark_magenta teal }
+		randomizable_combo = { lilac teal lilac }
+		randomizable_combo = { teal lilac teal }
+		randomizable_combo = { bubblegum teal bubblegum }
+		randomizable_combo = { teal bubblegum teal }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate teal palatinate }
+		randomizable_combo = { teal palatinate teal }
+		randomizable_combo = { indigo teal indigo }
+		randomizable_combo = { teal indigo teal }
+		randomizable_combo = { purple teal purple }
+		randomizable_combo = { teal purple teal }
+		randomizable_combo = { dark_purple teal dark_purple }
+		randomizable_combo = { teal dark_purple teal }
+		#WITH BLUES
+		randomizable_combo = { blue teal blue }
+		randomizable_combo = { teal blue teal }
+		randomizable_combo = { dark_blue teal dark_blue }
+		randomizable_combo = { teal dark_blue teal }
+		randomizable_combo = { light_blue teal light_blue }
+		randomizable_combo = { teal light_blue teal }
+		randomizable_combo = { prussian_blue teal prussian_blue }
+		randomizable_combo = { teal prussian_blue teal }
+		randomizable_combo = { ice_blue teal ice_blue }
+		randomizable_combo = { teal ice_blue teal }
+		randomizable_combo = { space_cadet teal space_cadet }
+		randomizable_combo = { teal space_cadet teal }
+		randomizable_combo = { ultramarine teal ultramarine }
+		randomizable_combo = { teal ultramarine teal }
+		randomizable_combo = { liberty teal liberty }
+		randomizable_combo = { teal liberty teal }
+		
+#	LIBERTY
+		#WITH YELLOWS
+		randomizable_combo = { yellow liberty black }
+		randomizable_combo = { liberty yellow black }
+		randomizable_combo = { dijon liberty black }
+		randomizable_combo = { liberty dijon black }
+		randomizable_combo = { amber liberty black }
+		randomizable_combo = { liberty amber black }
+		randomizable_combo = { gold liberty black }
+		randomizable_combo = { liberty gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange liberty orange }
+		randomizable_combo = { liberty orange liberty }
+		randomizable_combo = { bright_orange liberty bright_orange }
+		randomizable_combo = { liberty bright_orange liberty }
+		randomizable_combo = { bold_orange liberty bold_orange }
+		randomizable_combo = { liberty bold_orange liberty }
+		randomizable_combo = { blood_orange liberty blood_orange }
+		randomizable_combo = { liberty blood_orange liberty }
+		#WITH REDS
+		randomizable_combo = { red_orange liberty red_orange }
+		randomizable_combo = { liberty red_orange liberty }
+		randomizable_combo = { red liberty red }
+		randomizable_combo = { liberty red liberty }
+		randomizable_combo = { true_red liberty true_red }
+		randomizable_combo = { liberty true_red liberty }
+		randomizable_combo = { burgundy liberty burgundy }
+		randomizable_combo = { liberty burgundy liberty }
+		randomizable_combo = { cardinal liberty cardinal }
+		randomizable_combo = { liberty cardinal liberty }
+		randomizable_combo = { crimson liberty crimson }
+		randomizable_combo = { liberty crimson liberty }
+		randomizable_combo = { auburn liberty auburn }
+		randomizable_combo = { liberty auburn liberty }
+		randomizable_combo = { fire_brick liberty fire_brick }
+		randomizable_combo = { liberty fire_brick liberty }
+		#WITH MAGENTAS
+		randomizable_combo = { pink liberty pink }
+		randomizable_combo = { liberty pink liberty }
+		randomizable_combo = { dark_magenta liberty dark_magenta }
+		randomizable_combo = { liberty dark_magenta liberty }
+		randomizable_combo = { lilac liberty lilac }
+		randomizable_combo = { liberty lilac liberty }
+		randomizable_combo = { bubblegum liberty bubblegum }
+		randomizable_combo = { liberty bubblegum liberty }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate liberty palatinate }
+		randomizable_combo = { liberty palatinate liberty }
+		randomizable_combo = { indigo liberty indigo }
+		randomizable_combo = { liberty indigo liberty }
+		randomizable_combo = { purple liberty purple }
+		randomizable_combo = { liberty purple liberty }
+		randomizable_combo = { dark_purple liberty dark_purple }
+		randomizable_combo = { liberty dark_purple liberty }
+		#WITH BLUES
+		randomizable_combo = { blue liberty blue }
+		randomizable_combo = { liberty blue liberty }
+		randomizable_combo = { dark_blue liberty dark_blue }
+		randomizable_combo = { liberty dark_blue liberty }
+		randomizable_combo = { light_blue liberty light_blue }
+		randomizable_combo = { liberty light_blue liberty }
+		randomizable_combo = { prussian_blue liberty prussian_blue }
+		randomizable_combo = { liberty prussian_blue liberty }
+		randomizable_combo = { ice_blue liberty ice_blue }
+		randomizable_combo = { liberty ice_blue liberty }
+		randomizable_combo = { space_cadet liberty space_cadet }
+		randomizable_combo = { liberty space_cadet liberty }
+		randomizable_combo = { ultramarine liberty ultramarine }
+		randomizable_combo = { liberty ultramarine liberty }
+
+#	ULTRAMARINE
+		#WITH YELLOWS
+		randomizable_combo = { yellow ultramarine black }
+		randomizable_combo = { ultramarine yellow black }
+		randomizable_combo = { dijon ultramarine black }
+		randomizable_combo = { ultramarine dijon black }
+		randomizable_combo = { amber ultramarine black }
+		randomizable_combo = { ultramarine amber black }
+		randomizable_combo = { gold ultramarine black }
+		randomizable_combo = { ultramarine gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange ultramarine orange }
+		randomizable_combo = { ultramarine orange ultramarine }
+		randomizable_combo = { bright_orange ultramarine bright_orange }
+		randomizable_combo = { ultramarine bright_orange ultramarine }
+		randomizable_combo = { bold_orange ultramarine bold_orange }
+		randomizable_combo = { ultramarine bold_orange ultramarine }
+		randomizable_combo = { blood_orange ultramarine blood_orange }
+		randomizable_combo = { ultramarine blood_orange ultramarine }
+		#WITH REDS
+		randomizable_combo = { red_orange ultramarine red_orange }
+		randomizable_combo = { ultramarine red_orange ultramarine }
+		randomizable_combo = { red ultramarine red }
+		randomizable_combo = { ultramarine red ultramarine }
+		randomizable_combo = { true_red ultramarine true_red }
+		randomizable_combo = { ultramarine true_red ultramarine }
+		randomizable_combo = { burgundy ultramarine burgundy }
+		randomizable_combo = { ultramarine burgundy ultramarine }
+		randomizable_combo = { cardinal ultramarine cardinal }
+		randomizable_combo = { ultramarine cardinal ultramarine }
+		randomizable_combo = { crimson ultramarine crimson }
+		randomizable_combo = { ultramarine crimson ultramarine }
+		randomizable_combo = { auburn ultramarine auburn }
+		randomizable_combo = { ultramarine auburn ultramarine }
+		randomizable_combo = { fire_brick ultramarine fire_brick }
+		randomizable_combo = { ultramarine fire_brick ultramarine }
+		#WITH MAGENTAS
+		randomizable_combo = { pink ultramarine pink }
+		randomizable_combo = { ultramarine pink ultramarine }
+		randomizable_combo = { dark_magenta ultramarine dark_magenta }
+		randomizable_combo = { ultramarine dark_magenta ultramarine }
+		randomizable_combo = { lilac ultramarine lilac }
+		randomizable_combo = { ultramarine lilac ultramarine }
+		randomizable_combo = { bubblegum ultramarine bubblegum }
+		randomizable_combo = { ultramarine bubblegum ultramarine }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate ultramarine palatinate }
+		randomizable_combo = { ultramarine palatinate ultramarine }
+		randomizable_combo = { indigo ultramarine indigo }
+		randomizable_combo = { ultramarine indigo ultramarine }
+		randomizable_combo = { purple ultramarine purple }
+		randomizable_combo = { ultramarine purple ultramarine }
+		randomizable_combo = { dark_purple ultramarine dark_purple }
+		randomizable_combo = { ultramarine dark_purple ultramarine }
+		#WITH BLUES
+		randomizable_combo = { blue ultramarine blue }
+		randomizable_combo = { ultramarine blue ultramarine }
+		randomizable_combo = { dark_blue ultramarine dark_blue }
+		randomizable_combo = { ultramarine dark_blue ultramarine }
+		randomizable_combo = { light_blue ultramarine light_blue }
+		randomizable_combo = { ultramarine light_blue ultramarine }
+		randomizable_combo = { prussian_blue ultramarine prussian_blue }
+		randomizable_combo = { ultramarine prussian_blue ultramarine }
+		randomizable_combo = { ice_blue ultramarine ice_blue }
+		randomizable_combo = { ultramarine ice_blue ultramarine }
+		randomizable_combo = { space_cadet ultramarine space_cadet }
+		randomizable_combo = { ultramarine space_cadet ultramarine }
+		
+#	SPACE CADET
+		#WITH YELLOWS
+		randomizable_combo = { yellow space_cadet black }
+		randomizable_combo = { space_cadet yellow black }
+		randomizable_combo = { dijon space_cadet black }
+		randomizable_combo = { space_cadet dijon black }
+		randomizable_combo = { amber space_cadet black }
+		randomizable_combo = { space_cadet amber black }
+		randomizable_combo = { gold space_cadet black }
+		randomizable_combo = { space_cadet gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange space_cadet orange }
+		randomizable_combo = { space_cadet orange space_cadet }
+		randomizable_combo = { bright_orange space_cadet bright_orange }
+		randomizable_combo = { space_cadet bright_orange space_cadet }
+		randomizable_combo = { bold_orange space_cadet bold_orange }
+		randomizable_combo = { space_cadet bold_orange space_cadet }
+		randomizable_combo = { blood_orange space_cadet blood_orange }
+		randomizable_combo = { space_cadet blood_orange space_cadet }
+		#WITH REDS
+		randomizable_combo = { red_orange space_cadet red_orange }
+		randomizable_combo = { space_cadet red_orange space_cadet }
+		randomizable_combo = { red space_cadet red }
+		randomizable_combo = { space_cadet red space_cadet }
+		randomizable_combo = { true_red space_cadet true_red }
+		randomizable_combo = { space_cadet true_red space_cadet }
+		randomizable_combo = { burgundy space_cadet burgundy }
+		randomizable_combo = { space_cadet burgundy space_cadet }
+		randomizable_combo = { cardinal space_cadet cardinal }
+		randomizable_combo = { space_cadet cardinal space_cadet }
+		randomizable_combo = { crimson space_cadet crimson }
+		randomizable_combo = { space_cadet crimson space_cadet }
+		randomizable_combo = { auburn space_cadet auburn }
+		randomizable_combo = { space_cadet auburn space_cadet }
+		randomizable_combo = { fire_brick space_cadet fire_brick }
+		randomizable_combo = { space_cadet fire_brick space_cadet }
+		#WITH MAGENTAS
+		randomizable_combo = { pink space_cadet pink }
+		randomizable_combo = { space_cadet pink space_cadet }
+		randomizable_combo = { dark_magenta space_cadet dark_magenta }
+		randomizable_combo = { space_cadet dark_magenta space_cadet }
+		randomizable_combo = { lilac space_cadet lilac }
+		randomizable_combo = { space_cadet lilac space_cadet }
+		randomizable_combo = { bubblegum space_cadet bubblegum }
+		randomizable_combo = { space_cadet bubblegum space_cadet }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate space_cadet palatinate }
+		randomizable_combo = { space_cadet palatinate space_cadet }
+		randomizable_combo = { indigo space_cadet indigo }
+		randomizable_combo = { space_cadet indigo space_cadet }
+		randomizable_combo = { purple space_cadet purple }
+		randomizable_combo = { space_cadet purple space_cadet }
+		randomizable_combo = { dark_purple space_cadet dark_purple }
+		randomizable_combo = { space_cadet dark_purple space_cadet }
+		#WITH BLUES
+		randomizable_combo = { blue space_cadet blue }
+		randomizable_combo = { space_cadet blue space_cadet }
+		randomizable_combo = { dark_blue space_cadet dark_blue }
+		randomizable_combo = { space_cadet dark_blue space_cadet }
+		randomizable_combo = { light_blue space_cadet light_blue }
+		randomizable_combo = { space_cadet light_blue space_cadet }
+		randomizable_combo = { prussian_blue space_cadet prussian_blue }
+		randomizable_combo = { space_cadet prussian_blue space_cadet }
+		randomizable_combo = { ice_blue space_cadet ice_blue }
+		randomizable_combo = { space_cadet ice_blue space_cadet }
+		
+#	ICE BLUE
+		#WITH YELLOWS
+		randomizable_combo = { yellow ice_blue black }
+		randomizable_combo = { ice_blue yellow black }
+		randomizable_combo = { dijon ice_blue black }
+		randomizable_combo = { ice_blue dijon black }
+		randomizable_combo = { amber ice_blue black }
+		randomizable_combo = { ice_blue amber black }
+		randomizable_combo = { gold ice_blue black }
+		randomizable_combo = { ice_blue gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange ice_blue orange }
+		randomizable_combo = { ice_blue orange ice_blue }
+		randomizable_combo = { bright_orange ice_blue bright_orange }
+		randomizable_combo = { ice_blue bright_orange ice_blue }
+		randomizable_combo = { bold_orange ice_blue bold_orange }
+		randomizable_combo = { ice_blue bold_orange ice_blue }
+		randomizable_combo = { blood_orange ice_blue blood_orange }
+		randomizable_combo = { ice_blue blood_orange ice_blue }
+		#WITH REDS
+		randomizable_combo = { red_orange ice_blue red_orange }
+		randomizable_combo = { ice_blue red_orange ice_blue }
+		randomizable_combo = { red ice_blue red }
+		randomizable_combo = { ice_blue red ice_blue }
+		randomizable_combo = { true_red ice_blue true_red }
+		randomizable_combo = { ice_blue true_red ice_blue }
+		randomizable_combo = { burgundy ice_blue burgundy }
+		randomizable_combo = { ice_blue burgundy ice_blue }
+		randomizable_combo = { cardinal ice_blue cardinal }
+		randomizable_combo = { ice_blue cardinal ice_blue }
+		randomizable_combo = { crimson ice_blue crimson }
+		randomizable_combo = { ice_blue crimson ice_blue }
+		randomizable_combo = { auburn ice_blue auburn }
+		randomizable_combo = { ice_blue auburn ice_blue }
+		randomizable_combo = { fire_brick ice_blue fire_brick }
+		randomizable_combo = { ice_blue fire_brick ice_blue }
+		#WITH MAGENTAS
+		randomizable_combo = { pink ice_blue pink }
+		randomizable_combo = { ice_blue pink ice_blue }
+		randomizable_combo = { dark_magenta ice_blue dark_magenta }
+		randomizable_combo = { ice_blue dark_magenta ice_blue }
+		randomizable_combo = { lilac ice_blue lilac }
+		randomizable_combo = { ice_blue lilac ice_blue }
+		randomizable_combo = { bubblegum ice_blue bubblegum }
+		randomizable_combo = { ice_blue bubblegum ice_blue }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate ice_blue palatinate }
+		randomizable_combo = { ice_blue palatinate ice_blue }
+		randomizable_combo = { indigo ice_blue indigo }
+		randomizable_combo = { ice_blue indigo ice_blue }
+		randomizable_combo = { purple ice_blue purple }
+		randomizable_combo = { ice_blue purple ice_blue }
+		randomizable_combo = { dark_purple ice_blue dark_purple }
+		randomizable_combo = { ice_blue dark_purple ice_blue }
+		#WITH BLUES
+		randomizable_combo = { blue ice_blue blue }
+		randomizable_combo = { ice_blue blue ice_blue }
+		randomizable_combo = { dark_blue ice_blue dark_blue }
+		randomizable_combo = { ice_blue dark_blue ice_blue }
+		randomizable_combo = { light_blue ice_blue light_blue }
+		randomizable_combo = { ice_blue light_blue ice_blue }
+		randomizable_combo = { prussian_blue ice_blue prussian_blue }
+		randomizable_combo = { ice_blue prussian_blue ice_blue }
+		
+#	PRUSSIAN BLUE
+		#WITH YELLOWS
+		randomizable_combo = { yellow prussian_blue black }
+		randomizable_combo = { prussian_blue yellow black }
+		randomizable_combo = { dijon prussian_blue black }
+		randomizable_combo = { prussian_blue dijon black }
+		randomizable_combo = { amber prussian_blue black }
+		randomizable_combo = { prussian_blue amber black }
+		randomizable_combo = { gold prussian_blue black }
+		randomizable_combo = { prussian_blue gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange prussian_blue orange }
+		randomizable_combo = { prussian_blue orange prussian_blue }
+		randomizable_combo = { bright_orange prussian_blue bright_orange }
+		randomizable_combo = { prussian_blue bright_orange prussian_blue }
+		randomizable_combo = { bold_orange prussian_blue bold_orange }
+		randomizable_combo = { prussian_blue bold_orange prussian_blue }
+		randomizable_combo = { blood_orange prussian_blue blood_orange }
+		randomizable_combo = { prussian_blue blood_orange prussian_blue }
+		#WITH REDS
+		randomizable_combo = { red_orange prussian_blue red_orange }
+		randomizable_combo = { prussian_blue red_orange prussian_blue }
+		randomizable_combo = { red prussian_blue red }
+		randomizable_combo = { prussian_blue red prussian_blue }
+		randomizable_combo = { true_red prussian_blue true_red }
+		randomizable_combo = { prussian_blue true_red prussian_blue }
+		randomizable_combo = { burgundy prussian_blue burgundy }
+		randomizable_combo = { prussian_blue burgundy prussian_blue }
+		randomizable_combo = { cardinal prussian_blue cardinal }
+		randomizable_combo = { prussian_blue cardinal prussian_blue }
+		randomizable_combo = { crimson prussian_blue crimson }
+		randomizable_combo = { prussian_blue crimson prussian_blue }
+		randomizable_combo = { auburn prussian_blue auburn }
+		randomizable_combo = { prussian_blue auburn prussian_blue }
+		randomizable_combo = { fire_brick prussian_blue fire_brick }
+		randomizable_combo = { prussian_blue fire_brick prussian_blue }
+		#WITH MAGENTAS
+		randomizable_combo = { pink prussian_blue pink }
+		randomizable_combo = { prussian_blue pink prussian_blue }
+		randomizable_combo = { dark_magenta prussian_blue dark_magenta }
+		randomizable_combo = { prussian_blue dark_magenta prussian_blue }
+		randomizable_combo = { lilac prussian_blue lilac }
+		randomizable_combo = { prussian_blue lilac prussian_blue }
+		randomizable_combo = { bubblegum prussian_blue bubblegum }
+		randomizable_combo = { prussian_blue bubblegum prussian_blue }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate prussian_blue palatinate }
+		randomizable_combo = { prussian_blue palatinate prussian_blue }
+		randomizable_combo = { indigo prussian_blue indigo }
+		randomizable_combo = { prussian_blue indigo prussian_blue }
+		randomizable_combo = { purple prussian_blue purple }
+		randomizable_combo = { prussian_blue purple prussian_blue }
+		randomizable_combo = { dark_purple prussian_blue dark_purple }
+		randomizable_combo = { prussian_blue dark_purple prussian_blue }
+		#WITH BLUES
+		randomizable_combo = { blue prussian_blue blue }
+		randomizable_combo = { prussian_blue blue prussian_blue }
+		randomizable_combo = { dark_blue prussian_blue dark_blue }
+		randomizable_combo = { prussian_blue dark_blue prussian_blue }
+		randomizable_combo = { light_blue prussian_blue light_blue }
+		randomizable_combo = { prussian_blue light_blue prussian_blue }
+		
+#	LIGHT BLUE
+		#WITH YELLOWS
+		randomizable_combo = { yellow light_blue black }
+		randomizable_combo = { light_blue yellow black }
+		randomizable_combo = { dijon light_blue black }
+		randomizable_combo = { light_blue dijon black }
+		randomizable_combo = { amber light_blue black }
+		randomizable_combo = { light_blue amber black }
+		randomizable_combo = { gold light_blue black }
+		randomizable_combo = { light_blue gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange light_blue orange }
+		randomizable_combo = { light_blue orange light_blue }
+		randomizable_combo = { bright_orange light_blue bright_orange }
+		randomizable_combo = { light_blue bright_orange light_blue }
+		randomizable_combo = { bold_orange light_blue bold_orange }
+		randomizable_combo = { light_blue bold_orange light_blue }
+		randomizable_combo = { blood_orange light_blue blood_orange }
+		randomizable_combo = { light_blue blood_orange light_blue }
+		#WITH REDS
+		randomizable_combo = { red_orange light_blue red_orange }
+		randomizable_combo = { light_blue red_orange light_blue }
+		randomizable_combo = { red light_blue red }
+		randomizable_combo = { light_blue red light_blue }
+		randomizable_combo = { true_red light_blue true_red }
+		randomizable_combo = { light_blue true_red light_blue }
+		randomizable_combo = { burgundy light_blue burgundy }
+		randomizable_combo = { light_blue burgundy light_blue }
+		randomizable_combo = { cardinal light_blue cardinal }
+		randomizable_combo = { light_blue cardinal light_blue }
+		randomizable_combo = { crimson light_blue crimson }
+		randomizable_combo = { light_blue crimson light_blue }
+		randomizable_combo = { auburn light_blue auburn }
+		randomizable_combo = { light_blue auburn light_blue }
+		randomizable_combo = { fire_brick light_blue fire_brick }
+		randomizable_combo = { light_blue fire_brick light_blue }
+		#WITH MAGENTAS
+		randomizable_combo = { pink light_blue pink }
+		randomizable_combo = { light_blue pink light_blue }
+		randomizable_combo = { dark_magenta light_blue dark_magenta }
+		randomizable_combo = { light_blue dark_magenta light_blue }
+		randomizable_combo = { lilac light_blue lilac }
+		randomizable_combo = { light_blue lilac light_blue }
+		randomizable_combo = { bubblegum light_blue bubblegum }
+		randomizable_combo = { light_blue bubblegum light_blue }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate light_blue palatinate }
+		randomizable_combo = { light_blue palatinate light_blue }
+		randomizable_combo = { indigo light_blue indigo }
+		randomizable_combo = { light_blue indigo light_blue }
+		randomizable_combo = { purple light_blue purple }
+		randomizable_combo = { light_blue purple light_blue }
+		randomizable_combo = { dark_purple light_blue dark_purple }
+		randomizable_combo = { light_blue dark_purple light_blue }
+		#WITH BLUES
+		randomizable_combo = { blue light_blue blue }
+		randomizable_combo = { light_blue blue light_blue }
+		randomizable_combo = { dark_blue light_blue dark_blue }
+		randomizable_combo = { light_blue dark_blue light_blue }
+		
+#	LIGHT BLUE
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_blue black }
+		randomizable_combo = { dark_blue yellow black }
+		randomizable_combo = { dijon dark_blue black }
+		randomizable_combo = { dark_blue dijon black }
+		randomizable_combo = { amber dark_blue black }
+		randomizable_combo = { dark_blue amber black }
+		randomizable_combo = { gold dark_blue black }
+		randomizable_combo = { dark_blue gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_blue orange }
+		randomizable_combo = { dark_blue orange dark_blue }
+		randomizable_combo = { bright_orange dark_blue bright_orange }
+		randomizable_combo = { dark_blue bright_orange dark_blue }
+		randomizable_combo = { bold_orange dark_blue bold_orange }
+		randomizable_combo = { dark_blue bold_orange dark_blue }
+		randomizable_combo = { blood_orange dark_blue blood_orange }
+		randomizable_combo = { dark_blue blood_orange dark_blue }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_blue red_orange }
+		randomizable_combo = { dark_blue red_orange dark_blue }
+		randomizable_combo = { red dark_blue red }
+		randomizable_combo = { dark_blue red dark_blue }
+		randomizable_combo = { true_red dark_blue true_red }
+		randomizable_combo = { dark_blue true_red dark_blue }
+		randomizable_combo = { burgundy dark_blue burgundy }
+		randomizable_combo = { dark_blue burgundy dark_blue }
+		randomizable_combo = { cardinal dark_blue cardinal }
+		randomizable_combo = { dark_blue cardinal dark_blue }
+		randomizable_combo = { crimson dark_blue crimson }
+		randomizable_combo = { dark_blue crimson dark_blue }
+		randomizable_combo = { auburn dark_blue auburn }
+		randomizable_combo = { dark_blue auburn dark_blue }
+		randomizable_combo = { fire_brick dark_blue fire_brick }
+		randomizable_combo = { dark_blue fire_brick dark_blue }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_blue pink }
+		randomizable_combo = { dark_blue pink dark_blue }
+		randomizable_combo = { dark_magenta dark_blue dark_magenta }
+		randomizable_combo = { dark_blue dark_magenta dark_blue }
+		randomizable_combo = { lilac dark_blue lilac }
+		randomizable_combo = { dark_blue lilac dark_blue }
+		randomizable_combo = { bubblegum dark_blue bubblegum }
+		randomizable_combo = { dark_blue bubblegum dark_blue }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_blue palatinate }
+		randomizable_combo = { dark_blue palatinate dark_blue }
+		randomizable_combo = { indigo dark_blue indigo }
+		randomizable_combo = { dark_blue indigo dark_blue }
+		randomizable_combo = { purple dark_blue purple }
+		randomizable_combo = { dark_blue purple dark_blue }
+		randomizable_combo = { dark_purple dark_blue dark_purple }
+		randomizable_combo = { dark_blue dark_purple dark_blue }
+		#WITH BLUES
+		randomizable_combo = { blue dark_blue blue }
+		randomizable_combo = { dark_blue blue dark_blue }
+		
+#	BLUE
+		#WITH YELLOWS
+		randomizable_combo = { yellow blue black }
+		randomizable_combo = { blue yellow black }
+		randomizable_combo = { dijon blue black }
+		randomizable_combo = { blue dijon black }
+		randomizable_combo = { amber blue amber }
+		randomizable_combo = { blue amber black }
+		randomizable_combo = { gold blue black }
+		randomizable_combo = { blue gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange blue orange }
+		randomizable_combo = { blue orange blue }
+		randomizable_combo = { bright_orange blue bright_orange }
+		randomizable_combo = { blue bright_orange blue }
+		randomizable_combo = { bold_orange blue bold_orange }
+		randomizable_combo = { blue bold_orange blue }
+		randomizable_combo = { blood_orange blue blood_orange }
+		randomizable_combo = { blue blood_orange blue }
+		#WITH REDS
+		randomizable_combo = { red_orange blue red_orange }
+		randomizable_combo = { blue red_orange blue }
+		randomizable_combo = { red blue red }
+		randomizable_combo = { blue red blue }
+		randomizable_combo = { true_red blue true_red }
+		randomizable_combo = { blue true_red blue }
+		randomizable_combo = { burgundy blue burgundy }
+		randomizable_combo = { blue burgundy blue }
+		randomizable_combo = { cardinal blue cardinal }
+		randomizable_combo = { blue cardinal blue }
+		randomizable_combo = { crimson blue crimson }
+		randomizable_combo = { blue crimson blue }
+		randomizable_combo = { auburn blue auburn }
+		randomizable_combo = { blue auburn blue }
+		randomizable_combo = { fire_brick blue fire_brick }
+		randomizable_combo = { blue fire_brick blue }
+		#WITH MAGENTAS
+		randomizable_combo = { pink blue pink }
+		randomizable_combo = { blue pink blue }
+		randomizable_combo = { dark_magenta blue dark_magenta }
+		randomizable_combo = { blue dark_magenta blue }
+		randomizable_combo = { lilac blue lilac }
+		randomizable_combo = { blue lilac blue }
+		randomizable_combo = { bubblegum blue bubblegum }
+		randomizable_combo = { blue bubblegum blue }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate blue palatinate }
+		randomizable_combo = { blue palatinate blue }
+		randomizable_combo = { indigo blue indigo }
+		randomizable_combo = { blue indigo blue }
+		randomizable_combo = { purple blue purple }
+		randomizable_combo = { blue purple blue }
+		randomizable_combo = { dark_purple blue dark_purple }
+		randomizable_combo = { blue dark_purple blue }
+		
+#	DARK PURPLE
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_purple black }
+		randomizable_combo = { dark_purple yellow black }
+		randomizable_combo = { dijon dark_purple black }
+		randomizable_combo = { dark_purple dijon black }
+		randomizable_combo = { amber dark_purple black }
+		randomizable_combo = { dark_purple amber black }
+		randomizable_combo = { gold dark_purple black }
+		randomizable_combo = { dark_purple gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_purple orange }
+		randomizable_combo = { dark_purple orange dark_purple }
+		randomizable_combo = { bright_orange dark_purple bright_orange }
+		randomizable_combo = { dark_purple bright_orange dark_purple }
+		randomizable_combo = { bold_orange dark_purple bold_orange }
+		randomizable_combo = { dark_purple bold_orange dark_purple }
+		randomizable_combo = { blood_orange dark_purple blood_orange }
+		randomizable_combo = { dark_purple blood_orange dark_purple }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_purple red_orange }
+		randomizable_combo = { dark_purple red_orange dark_purple }
+		randomizable_combo = { red dark_purple red }
+		randomizable_combo = { dark_purple red dark_purple }
+		randomizable_combo = { true_red dark_purple true_red }
+		randomizable_combo = { dark_purple true_red dark_purple }
+		randomizable_combo = { burgundy dark_purple burgundy }
+		randomizable_combo = { dark_purple burgundy dark_purple }
+		randomizable_combo = { cardinal dark_purple cardinal }
+		randomizable_combo = { dark_purple cardinal dark_purple }
+		randomizable_combo = { crimson dark_purple crimson }
+		randomizable_combo = { dark_purple crimson dark_purple }
+		randomizable_combo = { auburn dark_purple auburn }
+		randomizable_combo = { dark_purple auburn dark_purple }
+		randomizable_combo = { fire_brick dark_purple fire_brick }
+		randomizable_combo = { dark_purple fire_brick dark_purple }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_purple pink }
+		randomizable_combo = { dark_purple pink dark_purple }
+		randomizable_combo = { dark_magenta dark_purple dark_magenta }
+		randomizable_combo = { dark_purple dark_magenta dark_purple }
+		randomizable_combo = { lilac dark_purple lilac }
+		randomizable_combo = { dark_purple lilac dark_purple }
+		randomizable_combo = { bubblegum dark_purple bubblegum }
+		randomizable_combo = { dark_purple bubblegum dark_purple }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate dark_purple palatinate }
+		randomizable_combo = { dark_purple palatinate dark_purple }
+		randomizable_combo = { indigo dark_purple indigo }
+		randomizable_combo = { dark_purple indigo dark_purple }
+		randomizable_combo = { purple dark_purple purple }
+		randomizable_combo = { dark_purple purple dark_purple }
+		
+#	PURPLE
+		#WITH YELLOWS
+		randomizable_combo = { yellow purple black }
+		randomizable_combo = { purple yellow black }
+		randomizable_combo = { dijon purple black }
+		randomizable_combo = { purple dijon black }
+		randomizable_combo = { amber purple black }
+		randomizable_combo = { purple amber black }
+		randomizable_combo = { gold purple black }
+		randomizable_combo = { purple gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange purple orange }
+		randomizable_combo = { purple orange purple }
+		randomizable_combo = { bright_orange purple bright_orange }
+		randomizable_combo = { purple bright_orange purple }
+		randomizable_combo = { bold_orange purple bold_orange }
+		randomizable_combo = { purple bold_orange purple }
+		randomizable_combo = { blood_orange purple blood_orange }
+		randomizable_combo = { purple blood_orange purple }
+		#WITH REDS
+		randomizable_combo = { red_orange purple red_orange }
+		randomizable_combo = { purple red_orange purple }
+		randomizable_combo = { red purple red }
+		randomizable_combo = { purple red purple }
+		randomizable_combo = { true_red purple true_red }
+		randomizable_combo = { purple true_red purple }
+		randomizable_combo = { burgundy purple burgundy }
+		randomizable_combo = { purple burgundy purple }
+		randomizable_combo = { cardinal purple cardinal }
+		randomizable_combo = { purple cardinal purple }
+		randomizable_combo = { crimson purple crimson }
+		randomizable_combo = { purple crimson purple }
+		randomizable_combo = { auburn purple auburn }
+		randomizable_combo = { purple auburn purple }
+		randomizable_combo = { fire_brick purple fire_brick }
+		randomizable_combo = { purple fire_brick purple }
+		#WITH MAGENTAS
+		randomizable_combo = { pink purple pink }
+		randomizable_combo = { purple pink purple }
+		randomizable_combo = { dark_magenta purple dark_magenta }
+		randomizable_combo = { purple dark_magenta purple }
+		randomizable_combo = { lilac purple lilac }
+		randomizable_combo = { purple lilac purple }
+		randomizable_combo = { bubblegum purple bubblegum }
+		randomizable_combo = { purple bubblegum purple }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate purple palatinate }
+		randomizable_combo = { purple palatinate purple }
+		randomizable_combo = { indigo purple indigo }
+		randomizable_combo = { purple indigo purple }
+		
+#	INDIGO
+		#WITH YELLOWS
+		randomizable_combo = { yellow indigo black }
+		randomizable_combo = { indigo yellow black }
+		randomizable_combo = { dijon indigo black }
+		randomizable_combo = { indigo dijon black }
+		randomizable_combo = { amber indigo black }
+		randomizable_combo = { indigo amber black }
+		randomizable_combo = { gold indigo black }
+		randomizable_combo = { indigo gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange indigo orange }
+		randomizable_combo = { indigo orange indigo }
+		randomizable_combo = { bright_orange indigo bright_orange }
+		randomizable_combo = { indigo bright_orange indigo }
+		randomizable_combo = { bold_orange indigo bold_orange }
+		randomizable_combo = { indigo bold_orange indigo }
+		randomizable_combo = { blood_orange indigo blood_orange }
+		randomizable_combo = { indigo blood_orange indigo }
+		#WITH REDS
+		randomizable_combo = { red_orange indigo red_orange }
+		randomizable_combo = { indigo red_orange indigo }
+		randomizable_combo = { red indigo red }
+		randomizable_combo = { indigo red indigo }
+		randomizable_combo = { true_red indigo true_red }
+		randomizable_combo = { indigo true_red indigo }
+		randomizable_combo = { burgundy indigo burgundy }
+		randomizable_combo = { indigo burgundy indigo }
+		randomizable_combo = { cardinal indigo cardinal }
+		randomizable_combo = { indigo cardinal indigo }
+		randomizable_combo = { crimson indigo crimson }
+		randomizable_combo = { indigo crimson indigo }
+		randomizable_combo = { auburn indigo auburn }
+		randomizable_combo = { indigo auburn indigo }
+		randomizable_combo = { fire_brick indigo fire_brick }
+		randomizable_combo = { indigo fire_brick indigo }
+		#WITH MAGENTAS
+		randomizable_combo = { pink indigo pink }
+		randomizable_combo = { indigo pink indigo }
+		randomizable_combo = { dark_magenta indigo dark_magenta }
+		randomizable_combo = { indigo dark_magenta indigo }
+		randomizable_combo = { lilac indigo lilac }
+		randomizable_combo = { indigo lilac indigo }
+		randomizable_combo = { bubblegum indigo bubblegum }
+		randomizable_combo = { indigo bubblegum indigo }
+		#WITH VIOLETS
+		randomizable_combo = { palatinate indigo palatinate }
+		randomizable_combo = { indigo palatinate indigo }
+		
+#	PALATINATE
+		#WITH YELLOWS
+		randomizable_combo = { yellow palatinate black }
+		randomizable_combo = { palatinate yellow black }
+		randomizable_combo = { dijon palatinate black }
+		randomizable_combo = { palatinate dijon black }
+		randomizable_combo = { amber palatinate black }
+		randomizable_combo = { palatinate amber black }
+		randomizable_combo = { gold palatinate black }
+		randomizable_combo = { palatinate gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange palatinate orange }
+		randomizable_combo = { palatinate orange palatinate }
+		randomizable_combo = { bright_orange palatinate bright_orange }
+		randomizable_combo = { palatinate bright_orange palatinate }
+		randomizable_combo = { bold_orange palatinate bold_orange }
+		randomizable_combo = { palatinate bold_orange palatinate }
+		randomizable_combo = { blood_orange palatinate blood_orange }
+		randomizable_combo = { palatinate blood_orange palatinate }
+		#WITH REDS
+		randomizable_combo = { red_orange palatinate red_orange }
+		randomizable_combo = { palatinate red_orange palatinate }
+		randomizable_combo = { red palatinate red }
+		randomizable_combo = { palatinate red palatinate }
+		randomizable_combo = { true_red palatinate true_red }
+		randomizable_combo = { palatinate true_red palatinate }
+		randomizable_combo = { burgundy palatinate burgundy }
+		randomizable_combo = { palatinate burgundy palatinate }
+		randomizable_combo = { cardinal palatinate cardinal }
+		randomizable_combo = { palatinate cardinal palatinate }
+		randomizable_combo = { crimson palatinate crimson }
+		randomizable_combo = { palatinate crimson palatinate }
+		randomizable_combo = { auburn palatinate auburn }
+		randomizable_combo = { palatinate auburn palatinate }
+		randomizable_combo = { fire_brick palatinate fire_brick }
+		randomizable_combo = { palatinate fire_brick palatinate }
+		#WITH MAGENTAS
+		randomizable_combo = { pink palatinate pink }
+		randomizable_combo = { palatinate pink palatinate }
+		randomizable_combo = { dark_magenta palatinate dark_magenta }
+		randomizable_combo = { palatinate dark_magenta palatinate }
+		randomizable_combo = { lilac palatinate lilac }
+		randomizable_combo = { palatinate lilac palatinate }
+		randomizable_combo = { bubblegum palatinate bubblegum }
+		randomizable_combo = { palatinate bubblegum palatinate }
+		
+#	BUBBLEGUM
+		#WITH YELLOWS
+		randomizable_combo = { yellow bubblegum black }
+		randomizable_combo = { bubblegum yellow black }
+		randomizable_combo = { dijon bubblegum black }
+		randomizable_combo = { bubblegum dijon black }
+		randomizable_combo = { amber bubblegum black }
+		randomizable_combo = { bubblegum amber black }
+		randomizable_combo = { gold bubblegum black }
+		randomizable_combo = { bubblegum gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange bubblegum orange }
+		randomizable_combo = { bubblegum orange bubblegum }
+		randomizable_combo = { bright_orange bubblegum bright_orange }
+		randomizable_combo = { bubblegum bright_orange bubblegum }
+		randomizable_combo = { bold_orange bubblegum bold_orange }
+		randomizable_combo = { bubblegum bold_orange bubblegum }
+		randomizable_combo = { blood_orange bubblegum blood_orange }
+		randomizable_combo = { bubblegum blood_orange bubblegum }
+		#WITH REDS
+		randomizable_combo = { red_orange bubblegum red_orange }
+		randomizable_combo = { bubblegum red_orange bubblegum }
+		randomizable_combo = { red bubblegum red }
+		randomizable_combo = { bubblegum red bubblegum }
+		randomizable_combo = { true_red bubblegum true_red }
+		randomizable_combo = { bubblegum true_red bubblegum }
+		randomizable_combo = { burgundy bubblegum burgundy }
+		randomizable_combo = { bubblegum burgundy bubblegum }
+		randomizable_combo = { cardinal bubblegum cardinal }
+		randomizable_combo = { bubblegum cardinal bubblegum }
+		randomizable_combo = { crimson bubblegum crimson }
+		randomizable_combo = { bubblegum crimson bubblegum }
+		randomizable_combo = { auburn bubblegum auburn }
+		randomizable_combo = { bubblegum auburn bubblegum }
+		randomizable_combo = { fire_brick bubblegum fire_brick }
+		randomizable_combo = { bubblegum fire_brick bubblegum }
+		#WITH MAGENTAS
+		randomizable_combo = { pink bubblegum pink }
+		randomizable_combo = { bubblegum pink bubblegum }
+		randomizable_combo = { dark_magenta bubblegum dark_magenta }
+		randomizable_combo = { bubblegum dark_magenta bubblegum }
+		randomizable_combo = { lilac bubblegum lilac }
+		randomizable_combo = { bubblegum lilac bubblegum }
+		
+#	LILAC
+		#WITH YELLOWS
+		randomizable_combo = { yellow lilac black }
+		randomizable_combo = { lilac yellow black }
+		randomizable_combo = { dijon lilac black }
+		randomizable_combo = { lilac dijon black }
+		randomizable_combo = { amber lilac black }
+		randomizable_combo = { lilac amber black }
+		randomizable_combo = { gold lilac black }
+		randomizable_combo = { lilac gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange lilac orange }
+		randomizable_combo = { lilac orange lilac }
+		randomizable_combo = { bright_orange lilac bright_orange }
+		randomizable_combo = { lilac bright_orange lilac }
+		randomizable_combo = { bold_orange lilac bold_orange }
+		randomizable_combo = { lilac bold_orange lilac }
+		randomizable_combo = { blood_orange lilac blood_orange }
+		randomizable_combo = { lilac blood_orange lilac }
+		#WITH REDS
+		randomizable_combo = { red_orange lilac red_orange }
+		randomizable_combo = { lilac red_orange lilac }
+		randomizable_combo = { red lilac red }
+		randomizable_combo = { lilac red lilac }
+		randomizable_combo = { true_red lilac true_red }
+		randomizable_combo = { lilac true_red lilac }
+		randomizable_combo = { burgundy lilac burgundy }
+		randomizable_combo = { lilac burgundy lilac }
+		randomizable_combo = { cardinal lilac cardinal }
+		randomizable_combo = { lilac cardinal lilac }
+		randomizable_combo = { crimson lilac crimson }
+		randomizable_combo = { lilac crimson lilac }
+		randomizable_combo = { auburn lilac auburn }
+		randomizable_combo = { lilac auburn lilac }
+		randomizable_combo = { fire_brick lilac fire_brick }
+		randomizable_combo = { lilac fire_brick lilac }
+		#WITH MAGENTAS
+		randomizable_combo = { pink lilac pink }
+		randomizable_combo = { lilac pink lilac }
+		randomizable_combo = { dark_magenta lilac dark_magenta }
+		randomizable_combo = { lilac dark_magenta lilac }
+		
+#	DARK MAGENTA
+		#WITH YELLOWS
+		randomizable_combo = { yellow dark_magenta black }
+		randomizable_combo = { dark_magenta yellow black }
+		randomizable_combo = { dijon dark_magenta black }
+		randomizable_combo = { dark_magenta dijon black }
+		randomizable_combo = { amber dark_magenta black }
+		randomizable_combo = { dark_magenta amber black }
+		randomizable_combo = { gold dark_magenta black }
+		randomizable_combo = { dark_magenta gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange dark_magenta orange }
+		randomizable_combo = { dark_magenta orange dark_magenta }
+		randomizable_combo = { bright_orange dark_magenta bright_orange }
+		randomizable_combo = { dark_magenta bright_orange dark_magenta }
+		randomizable_combo = { bold_orange dark_magenta bold_orange }
+		randomizable_combo = { dark_magenta bold_orange dark_magenta }
+		randomizable_combo = { blood_orange dark_magenta blood_orange }
+		randomizable_combo = { dark_magenta blood_orange dark_magenta }
+		#WITH REDS
+		randomizable_combo = { red_orange dark_magenta red_orange }
+		randomizable_combo = { dark_magenta red_orange dark_magenta }
+		randomizable_combo = { red dark_magenta red }
+		randomizable_combo = { dark_magenta red dark_magenta }
+		randomizable_combo = { true_red dark_magenta true_red }
+		randomizable_combo = { dark_magenta true_red dark_magenta }
+		randomizable_combo = { burgundy dark_magenta burgundy }
+		randomizable_combo = { dark_magenta burgundy dark_magenta }
+		randomizable_combo = { cardinal dark_magenta cardinal }
+		randomizable_combo = { dark_magenta cardinal dark_magenta }
+		randomizable_combo = { crimson dark_magenta crimson }
+		randomizable_combo = { dark_magenta crimson dark_magenta }
+		randomizable_combo = { auburn dark_magenta auburn }
+		randomizable_combo = { dark_magenta auburn dark_magenta }
+		randomizable_combo = { fire_brick dark_magenta fire_brick }
+		randomizable_combo = { dark_magenta fire_brick dark_magenta }
+		#WITH MAGENTAS
+		randomizable_combo = { pink dark_magenta pink }
+		randomizable_combo = { dark_magenta pink dark_magenta }
+		
+#	PINK
+		#WITH YELLOWS
+		randomizable_combo = { yellow pink black }
+		randomizable_combo = { pink yellow black }
+		randomizable_combo = { dijon pink black }
+		randomizable_combo = { pink dijon black }
+		randomizable_combo = { amber pink black }
+		randomizable_combo = { pink amber black }
+		randomizable_combo = { gold pink black }
+		randomizable_combo = { pink gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange pink orange }
+		randomizable_combo = { pink orange pink }
+		randomizable_combo = { bright_orange pink bright_orange }
+		randomizable_combo = { pink bright_orange pink }
+		randomizable_combo = { bold_orange pink bold_orange }
+		randomizable_combo = { pink bold_orange pink }
+		randomizable_combo = { blood_orange pink blood_orange }
+		randomizable_combo = { pink blood_orange pink }
+		#WITH REDS
+		randomizable_combo = { red_orange pink red_orange }
+		randomizable_combo = { pink red_orange pink }
+		randomizable_combo = { red pink red }
+		randomizable_combo = { pink red pink }
+		randomizable_combo = { true_red pink true_red }
+		randomizable_combo = { pink true_red pink }
+		randomizable_combo = { burgundy pink burgundy }
+		randomizable_combo = { pink burgundy pink }
+		randomizable_combo = { cardinal pink cardinal }
+		randomizable_combo = { pink cardinal pink }
+		randomizable_combo = { crimson pink crimson }
+		randomizable_combo = { pink crimson pink }
+		randomizable_combo = { auburn pink auburn }
+		randomizable_combo = { pink auburn pink }
+		randomizable_combo = { fire_brick pink fire_brick }
+		randomizable_combo = { pink fire_brick pink }
+		
+#	FIRE BRICK
+		#WITH YELLOWS
+		randomizable_combo = { yellow fire_brick black }
+		randomizable_combo = { fire_brick yellow black }
+		randomizable_combo = { dijon fire_brick black }
+		randomizable_combo = { fire_brick dijon black }
+		randomizable_combo = { amber fire_brick black }
+		randomizable_combo = { fire_brick amber black }
+		randomizable_combo = { gold fire_brick black }
+		randomizable_combo = { fire_brick gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange fire_brick orange }
+		randomizable_combo = { fire_brick orange fire_brick }
+		randomizable_combo = { bright_orange fire_brick bright_orange }
+		randomizable_combo = { fire_brick bright_orange fire_brick }
+		randomizable_combo = { bold_orange fire_brick bold_orange }
+		randomizable_combo = { fire_brick bold_orange fire_brick }
+		randomizable_combo = { blood_orange fire_brick blood_orange }
+		randomizable_combo = { fire_brick blood_orange fire_brick }
+		#WITH REDS
+		randomizable_combo = { red_orange fire_brick red_orange }
+		randomizable_combo = { fire_brick red_orange fire_brick }
+		randomizable_combo = { red fire_brick red }
+		randomizable_combo = { fire_brick red fire_brick }
+		randomizable_combo = { true_red fire_brick true_red }
+		randomizable_combo = { fire_brick true_red fire_brick }
+		randomizable_combo = { burgundy fire_brick burgundy }
+		randomizable_combo = { fire_brick burgundy fire_brick }
+		randomizable_combo = { cardinal fire_brick cardinal }
+		randomizable_combo = { fire_brick cardinal fire_brick }
+		randomizable_combo = { crimson fire_brick crimson }
+		randomizable_combo = { fire_brick crimson fire_brick }
+		randomizable_combo = { auburn fire_brick auburn }
+		randomizable_combo = { fire_brick auburn fire_brick }
+		
+#	AUBURN
+		#WITH YELLOWS
+		randomizable_combo = { yellow auburn black }
+		randomizable_combo = { auburn yellow black }
+		randomizable_combo = { dijon auburn black }
+		randomizable_combo = { auburn dijon black }
+		randomizable_combo = { amber auburn black }
+		randomizable_combo = { auburn amber black }
+		randomizable_combo = { gold auburn black }
+		randomizable_combo = { auburn gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange auburn orange }
+		randomizable_combo = { auburn orange auburn }
+		randomizable_combo = { bright_orange auburn bright_orange }
+		randomizable_combo = { auburn bright_orange auburn }
+		randomizable_combo = { bold_orange auburn bold_orange }
+		randomizable_combo = { auburn bold_orange auburn }
+		randomizable_combo = { blood_orange auburn blood_orange }
+		randomizable_combo = { auburn blood_orange auburn }
+		#WITH REDS
+		randomizable_combo = { red_orange auburn red_orange }
+		randomizable_combo = { auburn red_orange auburn }
+		randomizable_combo = { red auburn red }
+		randomizable_combo = { auburn red auburn }
+		randomizable_combo = { true_red auburn true_red }
+		randomizable_combo = { auburn true_red auburn }
+		randomizable_combo = { burgundy auburn burgundy }
+		randomizable_combo = { auburn burgundy auburn }
+		randomizable_combo = { cardinal auburn cardinal }
+		randomizable_combo = { auburn cardinal auburn }
+		randomizable_combo = { crimson auburn crimson }
+		randomizable_combo = { auburn crimson auburn }
+		
+#	CRIMSON
+		#WITH YELLOWS
+		randomizable_combo = { yellow crimson black }
+		randomizable_combo = { crimson yellow black }
+		randomizable_combo = { dijon crimson black }
+		randomizable_combo = { crimson dijon black }
+		randomizable_combo = { amber crimson black }
+		randomizable_combo = { crimson amber black }
+		randomizable_combo = { gold crimson black }
+		randomizable_combo = { crimson gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange crimson orange }
+		randomizable_combo = { crimson orange crimson }
+		randomizable_combo = { bright_orange crimson bright_orange }
+		randomizable_combo = { crimson bright_orange crimson }
+		randomizable_combo = { bold_orange crimson bold_orange }
+		randomizable_combo = { crimson bold_orange crimson }
+		randomizable_combo = { blood_orange crimson blood_orange }
+		randomizable_combo = { crimson blood_orange crimson }
+		#WITH REDS
+		randomizable_combo = { red_orange crimson red_orange }
+		randomizable_combo = { crimson red_orange crimson }
+		randomizable_combo = { red crimson red }
+		randomizable_combo = { crimson red crimson }
+		randomizable_combo = { true_red crimson true_red }
+		randomizable_combo = { crimson true_red crimson }
+		randomizable_combo = { burgundy crimson burgundy }
+		randomizable_combo = { crimson burgundy crimson }
+		randomizable_combo = { cardinal crimson cardinal }
+		randomizable_combo = { crimson cardinal crimson }
+		
+#	CARDINAL
+		#WITH YELLOWS
+		randomizable_combo = { yellow cardinal black }
+		randomizable_combo = { cardinal yellow black }
+		randomizable_combo = { dijon cardinal black }
+		randomizable_combo = { cardinal dijon black }
+		randomizable_combo = { amber cardinal black }
+		randomizable_combo = { cardinal amber black }
+		randomizable_combo = { gold cardinal black }
+		randomizable_combo = { cardinal gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange cardinal orange }
+		randomizable_combo = { cardinal orange cardinal }
+		randomizable_combo = { bright_orange cardinal bright_orange }
+		randomizable_combo = { cardinal bright_orange cardinal }
+		randomizable_combo = { bold_orange cardinal bold_orange }
+		randomizable_combo = { cardinal bold_orange cardinal }
+		randomizable_combo = { blood_orange cardinal blood_orange }
+		randomizable_combo = { cardinal blood_orange cardinal }
+		#WITH REDS
+		randomizable_combo = { red_orange cardinal red_orange }
+		randomizable_combo = { cardinal red_orange cardinal }
+		randomizable_combo = { red cardinal red }
+		randomizable_combo = { cardinal red cardinal }
+		randomizable_combo = { true_red cardinal true_red }
+		randomizable_combo = { cardinal true_red cardinal }
+		randomizable_combo = { burgundy cardinal burgundy }
+		randomizable_combo = { cardinal burgundy cardinal }
+		
+#	BURGUNDY
+		#WITH YELLOWS
+		randomizable_combo = { yellow burgundy black }
+		randomizable_combo = { burgundy yellow black }
+		randomizable_combo = { dijon burgundy black }
+		randomizable_combo = { burgundy dijon black }
+		randomizable_combo = { amber burgundy black }
+		randomizable_combo = { burgundy amber black }
+		randomizable_combo = { gold burgundy black }
+		randomizable_combo = { burgundy gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange burgundy orange }
+		randomizable_combo = { burgundy orange burgundy }
+		randomizable_combo = { bright_orange burgundy bright_orange }
+		randomizable_combo = { burgundy bright_orange burgundy }
+		randomizable_combo = { bold_orange burgundy bold_orange }
+		randomizable_combo = { burgundy bold_orange burgundy }
+		randomizable_combo = { blood_orange burgundy blood_orange }
+		randomizable_combo = { burgundy blood_orange burgundy }
+		#WITH REDS
+		randomizable_combo = { red_orange burgundy red_orange }
+		randomizable_combo = { burgundy red_orange burgundy }
+		randomizable_combo = { red burgundy red }
+		randomizable_combo = { burgundy red burgundy }
+		randomizable_combo = { true_red burgundy true_red }
+		randomizable_combo = { burgundy true_red burgundy }
+		
+#	TRUE RED
+		#WITH YELLOWS
+		randomizable_combo = { yellow true_red black }
+		randomizable_combo = { true_red yellow black }
+		randomizable_combo = { dijon true_red black }
+		randomizable_combo = { true_red dijon black }
+		randomizable_combo = { amber true_red black }
+		randomizable_combo = { true_red amber black }
+		randomizable_combo = { gold true_red black }
+		randomizable_combo = { true_red gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange true_red orange }
+		randomizable_combo = { true_red orange true_red }
+		randomizable_combo = { bright_orange true_red bright_orange }
+		randomizable_combo = { true_red bright_orange true_red }
+		randomizable_combo = { bold_orange true_red bold_orange }
+		randomizable_combo = { true_red bold_orange true_red }
+		randomizable_combo = { blood_orange true_red blood_orange }
+		randomizable_combo = { true_red blood_orange true_red }
+		#WITH REDS
+		randomizable_combo = { red_orange true_red red_orange }
+		randomizable_combo = { true_red red_orange true_red }
+		randomizable_combo = { red true_red red }
+		randomizable_combo = { true_red red true_red }
+		
+#	RED
+		#WITH YELLOWS
+		randomizable_combo = { yellow red black }
+		randomizable_combo = { red yellow black }
+		randomizable_combo = { dijon red black }
+		randomizable_combo = { red dijon black }
+		randomizable_combo = { amber red black }
+		randomizable_combo = { red amber black }
+		randomizable_combo = { gold red black }
+		randomizable_combo = { red gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange red orange }
+		randomizable_combo = { red orange red }
+		randomizable_combo = { bright_orange red bright_orange }
+		randomizable_combo = { red bright_orange red }
+		randomizable_combo = { bold_orange red bold_orange }
+		randomizable_combo = { red bold_orange red }
+		randomizable_combo = { blood_orange red blood_orange }
+		randomizable_combo = { red blood_orange red }
+		#WITH REDS
+		randomizable_combo = { red_orange red red_orange }
+		randomizable_combo = { red red_orange red }
+		
+#	RED ORANGE
+		#WITH YELLOWS
+		randomizable_combo = { yellow red_orange black }
+		randomizable_combo = { red_orange yellow black }
+		randomizable_combo = { dijon red_orange black }
+		randomizable_combo = { red_orange dijon black }
+		randomizable_combo = { amber red_orange black }
+		randomizable_combo = { red_orange amber black }
+		randomizable_combo = { gold red_orange black }
+		randomizable_combo = { red_orange gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange red_orange orange }
+		randomizable_combo = { red_orange orange red_orange }
+		randomizable_combo = { bright_orange red_orange bright_orange }
+		randomizable_combo = { red_orange bright_orange red_orange }
+		randomizable_combo = { bold_orange red_orange bold_orange }
+		randomizable_combo = { red_orange bold_orange red_orange }
+		randomizable_combo = { blood_orange red_orange blood_orange }
+		randomizable_combo = { red_orange blood_orange red_orange }
+		
+#	BLOOD ORANGE
+		#WITH YELLOWS
+		randomizable_combo = { yellow blood_orange black }
+		randomizable_combo = { blood_orange yellow black }
+		randomizable_combo = { dijon blood_orange black }
+		randomizable_combo = { blood_orange dijon black }
+		randomizable_combo = { amber blood_orange black }
+		randomizable_combo = { blood_orange amber black }
+		randomizable_combo = { gold blood_orange black }
+		randomizable_combo = { blood_orange gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange blood_orange orange }
+		randomizable_combo = { blood_orange orange blood_orange }
+		randomizable_combo = { bright_orange blood_orange bright_orange }
+		randomizable_combo = { blood_orange bright_orange blood_orange }
+		randomizable_combo = { bold_orange blood_orange bold_orange }
+		randomizable_combo = { blood_orange bold_orange blood_orange }
+		
+#	BOLD ORANGE
+		#WITH YELLOWS
+		randomizable_combo = { yellow bold_orange black }
+		randomizable_combo = { bold_orange yellow black }
+		randomizable_combo = { dijon bold_orange black }
+		randomizable_combo = { bold_orange dijon black }
+		randomizable_combo = { amber bold_orange black }
+		randomizable_combo = { bold_orange amber black }
+		randomizable_combo = { gold bold_orange black }
+		randomizable_combo = { bold_orange gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange bold_orange orange }
+		randomizable_combo = { bold_orange orange bold_orange }
+		randomizable_combo = { bright_orange bold_orange bright_orange }
+		randomizable_combo = { bold_orange bright_orange bold_orange }
+		
+#	BRIGHT ORANGE
+		#WITH YELLOWS
+		randomizable_combo = { yellow bright_orange black }
+		randomizable_combo = { bright_orange yellow black }
+		randomizable_combo = { dijon bright_orange black }
+		randomizable_combo = { bright_orange dijon black }
+		randomizable_combo = { amber bright_orange black }
+		randomizable_combo = { bright_orange amber black }
+		randomizable_combo = { gold bright_orange black }
+		randomizable_combo = { bright_orange gold black }
+		#WITH ORANGES
+		randomizable_combo = { orange bright_orange orange }
+		randomizable_combo = { bright_orange orange bright_orange }
+		
+#	ORANGE
+		#WITH YELLOWS
+		randomizable_combo = { yellow orange black }
+		randomizable_combo = { orange yellow black }
+		randomizable_combo = { dijon orange black }
+		randomizable_combo = { orange dijon black }
+		randomizable_combo = { amber orange black }
+		randomizable_combo = { orange amber black }
+		randomizable_combo = { gold orange black }
+		randomizable_combo = { orange gold black }
+		
+#	GOLD
+		#WITH YELLOWS
+		randomizable_combo = { yellow gold black }
+		randomizable_combo = { gold yellow black }
+		randomizable_combo = { dijon gold black }
+		randomizable_combo = { gold dijon black }
+		randomizable_combo = { amber gold black }
+		randomizable_combo = { gold amber black }
+		
+#	AMBER
+		#WITH YELLOWS
+		randomizable_combo = { yellow amber black }
+		randomizable_combo = { amber yellow black }
+		randomizable_combo = { dijon amber black }
+		randomizable_combo = { amber dijon black }
+		
+#	DIJON
+		#WITH YELLOWS
+		randomizable_combo = { yellow dijon black }
+		randomizable_combo = { dijon yellow black }
+    

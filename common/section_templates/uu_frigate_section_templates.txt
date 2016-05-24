@@ -1,0 +1,75 @@
+
+ship_section_template = {
+	key = "FRIGATE_MID_S1"
+	ship_size = Frigate
+	fits_on_slot = mid
+	entity = "frigate_S1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+
+	# Guns
+	weapon_preferences = { weapon_type_energy }
+	ai_weight = {
+		modifier = {
+			factor = 2.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+		tags = { weapon_type_energy }
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+		tags = { weapon_type_energy }
+	}
+
+	small_utility_slots = 3
+	cost = 10
+}
+
+ship_section_template = {
+	key = "FRIGATE_MID_D1"
+	ship_size = Frigate
+	fits_on_slot = mid
+	entity = "frigate_D1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+
+	# Guns
+	weapon_preferences = { weapon_type_strike_craft }
+	ai_weight = {
+		modifier = {
+			factor = 2.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	component_slot = {
+		name = "DRONE_HANGAR_1"
+		slot_size = small
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	small_utility_slots = 3
+	cost = 10
+}

@@ -1,0 +1,60 @@
+utility_component_template = {
+	key = "Damage Customization"
+	size = small
+	icon = "GFX_role_ship_damage"
+	icon_frame = 1
+	power = -15
+	cost = 15
+	modifier = {
+		ship_weapon_damage = 0.20
+		ship_fire_rate_mult = 0.20
+		ship_weapon_range_mult = 0.20
+	}
+	prerequisites = { "frigate_roles_1" }
+	component_set = "frigate_roles"
+
+	ai_weight = {
+		weight = 3
+	}
+ }
+
+utility_component_template = {
+	key = "Speed Customization"
+	size = small
+	icon = "GFX_role_ship_speed"
+	icon_frame = 1
+	power = 10
+	cost = 15
+	modifier = {
+		ship_speed_mult = 0.25
+		ship_combat_speed_mult = 0.5
+		ship_evasion_add = 30
+		ship_hitpoints_add = -50
+	}
+	prerequisites = { "frigate_roles_2" }
+	component_set = "frigate_roles"
+
+	ai_weight = {
+		weight = 3
+	}
+ }
+
+utility_component_template = {
+	key = "Empty Role Slot"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	ai_weight = {
+		weight = 1
+	}
+
+	class_restriction = { shipclass_military }
+	component_set = "frigate_roles"
+
+	ai_weight = {
+		weight = 3
+	}
+ }

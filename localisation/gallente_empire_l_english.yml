@@ -1,0 +1,11 @@
+﻿l_english:
+
+ EMPIRE_DESIGN_gallente:0 "Gallente Federation"
+ EMPIRE_DESIGN_gallente_desc:0 "Federation Bonus\n\n15% Hull \n+100 to Hull\n\nFew societies display such stark contrasts. Many of the wealthiest people in the world are Gallenteans, creating a constant demand for luxury goods. At the same time, the ranks of the poor number millions, because while the liberal market-driven economy and individual freedom may allow everybody the chance to advance to the top, they make it just as easy to plummet to the very bottom of the social ladder. \n\nIn the world of EVE, the Gallentean are the kings of entertainment, mass-producing everything from cheap porn-flicks to elaborate stage-shows for an ever-hungry public. They boast the most elaborate luxury space yachts, and the most glittering hotel reservoirs. Anything your mind or body could ever crave, the Gallenteans have plenty of it.\n\nThe Gallenteans are not alone in their Federation, whose boundaries are home to pockets of residents, varying in size and representing all the other races of EVE, most of whom left their own empires due to political or ideological differences, or simply in search of peace and prosperity. In addition to these there are two human races, the Intakis and the Mannars, both of whom the Gallenteans found while exploring and expanding their empire. Both were at a very primitive level when the Gallenteans found them, but since coming under the protection and guidance of the Gallenteans, both races have flourished and are today a full-fledged members of the Federation.\n\nThe Caldari were initially part of the Federation but deep-seated differences and mutual animosity between them and the Gallenteans drove them out to found their own empire. For a time, the two empires warred against each other, but as neither could gain sufficient advantage to claim victory, peace was settled in the end."
+ name_list_gallente:0 "Gallente Federation"
+ #gallente_bonus:0 "Gallente Federation Bonus"
+ #gallente_bonus_desc:0 "This is the bonus you get for being the Gallente Federation"
+ #trait_gallente:0 "Gallente Federation Bonus"
+ #trait_gallente_desc:0 "Federation Bonus\n15% Hull \n+100 to Hull"
+ IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
+ GAL:0 "Gallente"

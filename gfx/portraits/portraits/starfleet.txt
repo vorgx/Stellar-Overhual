@@ -1,0 +1,133 @@
+portraits = {
+starfleet_female_portraits_admiral = {
+     entity = "portrait_starfleet_admiral_entity"   clothes_selector = "starfleet_female_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_female_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_female_clothes_admiral.dds"
+     }
+   }
+starfleet_female_leader_portraits_general = {
+     entity = "portrait_starfleet_general_entity"   clothes_selector = "starfleet_female_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_female_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_female_clothes_general.dds"
+     }
+   }   
+
+
+starfleet_female_leader_portraits_scientist = {
+     entity = "portrait_starfleet_scientist_entity"   clothes_selector = "starfleet_female_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_female_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_female_outfit_scientist.dds"
+     }
+   }   
+   
+starfleet_male_portraits_admiral = {
+     entity = "portrait_starfleet_admiral_entity"   clothes_selector = "starfleet_male_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_male_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_male_clothes_admiral.dds"
+     }
+   }
+starfleet_male_leader_portraits_general = {
+     entity = "portrait_starfleet_general_entity"   clothes_selector = "starfleet_male_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_male_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_male_clothes_general.dds"
+     }
+   }   
+
+
+starfleet_male_leader_portraits_scientist = {
+     entity = "portrait_starfleet_scientist_entity"   clothes_selector = "starfleet_male_clothes01"    hair_selector = "no_texture"   greeting_sound = "human_male_greetings_02"
+     character_textures = {
+         "gfx/models/portraits/starfleet/human_male_outfit_scientist.dds"
+     }
+   }   
+   
+}
+
+
+portrait_groups = {
+	starfleet = {
+		default = starfleet_female_portraits_admiral
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					starfleet_female_portraits_admiral
+				}
+			}
+		}
+	}
+}

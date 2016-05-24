@@ -1,0 +1,109 @@
+﻿l_english:
+ #### Empire Names & Descriptions
+ #Amarr Factions
+ #EMPIRE_DESIGN_amarr_empire:0 "Amarr Empire"
+ #EMPIRE_DESIGN_amarr_empire_desc:0 "The Amarr Empire is the largest and oldest of the four empires. Ruled by a mighty empress, Amarr is a theocratic society capable of selfless acts and unspeakable evil. All in the name of their god."
+ EMPIRE_DESIGN_khanid_kingdom:0 "Khanid Kingdom"
+ EMPIRE_DESIGN_khanid_kingdom_desc:0 "Khanid Trade Access:\n\nTrade Attractivness +20%\nInfluence Gain +1\n Energy Credit Output +10%\n\nThe Khanid Kingdom is a small, but independent nation ruled by the Khanid Kingdom.\n\n They managed to free themselves from the Amarr Empire, after their now Ruler Khanid II, refused to commit ritualistic suicide."
+ EMPIRE_DESIGN_ammatar_mandate:0 "Ammatar Mandate"
+ EMPIRE_DESIGN_ammatar_mandate_desc:0 "Ammatar Collaboration:\n\nEthic Divergence -20%\nEmbassies +1\nHabitability +10%\n\nThe Ammatar Mandate is a client state of the Amarr Empire and functions as a buffer against the Minmatar Republic."
+ 
+ # Gallente Factions
+ #EMPIRE_DESIGN_gallente_federation:0 "Gallente Federation"
+ #EMPIRE_DESIGN_gallente_federation_desc:0 "The one true democracy of New Eden. The Gallente Federation is a powerful and prosperus multicultural dominion that welcomes outsiders with open arms. Intolerant of closed societies the Gallente are fierce defenders of personal and social liberties."
+ 
+ # Minmatar Factions
+ #EMPIRE_DESIGN_minmatar_republic:0 "Minmatar Republic"
+ #EMPIRE_DESIGN_minmatar_republic_desc:0 "Once a thriving tribal civilization, the Minmatar were enslaved by the Amarr Empire for hundreds of years. Most were freed after a great rebellion, but only at a tremendous cost. Today the Minmatar Republic is a strong, resurgend nation, determined to win back the glory form its past."
+ EMPIRE_DESIGN_thukker_tribe:0 "Thukker Tribe"
+ EMPIRE_DESIGN_thukker_tribe_desc:0 "Thukker Caravans:\n\nColony Development Speed +40%\nTile Blocker Clear Cost -20%\nTile Blocker Clear Time -20%\n\nThe Thukker Tribe roams the Great Wildlands."
+ 
+ # Caldari Factions
+ #EMPIRE_DESIGN_caldari_state:0 "Caldari State"
+ #EMPIRE_DESIGN_caldari_state_desc:0 "The Caldari State is a union of powerful mega-corporations, governed by a strict meritocracy. The state is a fiercly competitive and ruthless society, who's hyper-capitalistic ways have brought its people both misery and triumph."
+ EMPIRE_DESIGN_ishukone_corporation:0 "Isukone Corporation"
+ EMPIRE_DESIGN_ishukone_corporation_desc:0 "Jovian Technology Exchange:\n\nTechnology Research Speed +10%\nTechnology Alternatives +1\n\nIshukone was for a long time the feeblest of the Caldari mega corporations, but contact with the Jovians changed that. Ishukone was the first company to establish trade links with the Jovians and received the capsule technology from the Jovians, which made Ishukone billions of ISK in revenue before other companies could catch up. Ishukone is still reaping the rewards of their good relations with the Jovians and it possesses the most advanced technology outside Jove space."
+ EMPIRE_DESIGN_cbd_corporation:0 "CBD Corporation"
+ EMPIRE_DESIGN_cbd_corporation_desc:0 "CBD Trade Network:\n\nTrade Attractivness +20%\nShip Maintenance -10%\n\nThe CBD Corporation is one of the biggest exporters/importers in Caldari space. The corporation has established trade links far and wide, with a huge amount of goods in constant fluctuation."
+ EMPIRE_DESIGN_laidai_corporation:0 "Lai-Dai Corporation"
+ EMPIRE_DESIGN_laidai_corporation_desc:0 "Lai-Dai Quality Insurance:\n\nShip Construction Time +10%\nShip Construction Cost +10%\nShip Maintenance -20%\nShip Hullpoints +30%\n\nLai Dai has always advocated quality over quantity and their products have always been of the highest standard. Lai Dai has an energetic research program and rivals the great Ishukone in technological achievements."
+  
+ # Jove Factions
+ 
+ # Neutral Factions
+ EMPIRE_DESIGN_ore:0 "Outer Ring Excavations (ORE)"
+ EMPIRE_DESIGN_ore_desc: "ORE Mining Construction:\n\nMining Station Construction Cost -40%\nMineral Output +10%\n\nThe Outer Ring Excavations (ORE) is a powerful mining company which operates mostly in the Outer Ring region. It is one of the most powerful and wealthy corporations in New Eden."
+ EMPIRE_DESIGN_interbus:0 "The Interbus"
+ EMPIRE_DESIGN_interbus_desc:0 "Interbus Transportation:\n\nShip Construction Time -20%\nShip Construction Cost -30%\n\nThe Interbus was created by the four empires to enable more people to travel through the galaxy."
+ EMPIRE_DESIGN_mordus_legion:0 "Mordu's Legion Command"
+ EMPIRE_DESIGN_mordus_legion_desc: "Mordu's Legion Commanders:\n\nLeader Skill Level +1\nLeader Recruitement Cost -33%\nLeader Recruitement Pool +1\n\nMordu's Legion Command is an independent mercenary company, which was founded by an Intaki war veteran during the Gallente-Caldari War."
+ 
+ # Hostile Factions
+ EMPIRE_DESIGN_sanshas_nation:0 "Sansha's Nation"
+ EMPIRE_DESIGN_sanshas_nation_desc:0 "True Slaves:\n\nEthic Divergence 100%\nPopulation Happiness +100%\nLeader Experience Gain -50%\n\nSansha's Nation was created by Kuvakei Sansha, a very wealthy and successfull Caldari businessman."
+ 
+ # Pirate Factions
+ EMPIRE_DESIGN_guristas:0 "Guristas Pirates"
+ EMPIRE_DESIGN_guristas_desc:0 "Guristas Operations:\n\nMineral Output +10%\nLeader Experience Gain +25%\nEdict Influence Cost -25%\n\nThe Guristas Pirates were founded by two Caldari war Veterans."
+ EMPIRE_DESIGN_angel_cartel:0 "Angel Cartel"
+ EMPIRE_DESIGN_angel_cartel_desc:0 "Jovian Technology Salvagers:\n\nAnamoly Generation Chance +50%\nAnomaly Fail Risk -20%\n\nThe Angel Cartel is the most powerful of the pirate factions in New Eden. They focus their operations on Minmatar Space, but are active in all of New Eden. The Angel Cartel was founded in the Utopia System on the remnants of the First and Second Jove Empires."
+ EMPIRE_DESIGN_blood_raiders:0 "Blood Raiders Covenant"
+ EMPIRE_DESIGN_blood_raiders_desc:0 "Blood Rituals:\n\nSociety Research Speed +40%\nArmy Health +20%\n\nThe Blood Raiders formed after the Amarr Empire expelled or purged the members of the Sani Sabik cult. Their desire to drain the blood of others, which they use for their rituals, is what gives them their names."
+ EMPIRE_DESIGN_syndicate:0 "Intaki Syndicate"
+ EMPIRE_DESIGN_syndicate_desc:0 "Syndicate Financial Sector:\n\nEnergy Credits Output +30%\n\nThe Intaki Syndicate was founded after the Gallente Federation expelled the Intaki dissenters during the Gallente-Caldari War. These dissenters set out for the unexplored regions of space and have built a small empire, where you can get everything."
+ 
+ 
+ 
+ # Solar System Initializer Names and Descriptions
+ # Amarr Factions
+ amarr_empire_NAME:0 "Amarr"
+ amarr_empire_DESC:0 "Home system of the Amarr Empire."
+ khanid_kingdom_NAME:0 "Khanid Prime"
+ khanid_kingdom_DESC:0 "This is the home system of the Khanid Kingdom."
+ ammatar_mandate_NAME:0 "Tanoo"
+ ammatar_mandate_DESC:0 "The capital system of the Ammatar Mandate.\n\nIt is located in the Derelik region."
+ 
+ # Gallente Factions
+ gallente_federation_NAME:0 "Luminaire"
+ gallente_federation_DESC:0 "The home system of the Gallente Federation.\n\nHere both the Gallente and Caldari became space faring civilizations."
+ 
+ # Caldari Factions
+ caldari_state_NAME:0 "New Caldari"
+ caldari_state_DESC:0 "This is the new capital world of the Caldari State.\n\nIt is located in \"The Forge\" region."
+ ishukone_corporation_NAME:0 "Malkalen"
+ ishukone_corporation_DESC:0 "System of the Isukone Corporation headquarters."
+ cbd_corporation_NAME:0 "Muvolailen"
+ cbd_corporation_DESC:0 "System of the CDB Corporation headquarters."
+ laidai_corporation_NAME:0 "Airkio"
+ laidai_corporation_DESC:0 "System of the Lai-Dai Corporation headquarters."
+ 
+ # Minmatar Factions
+ minmatar_republic_NAME:0 "Pator"
+ minmatar_republic_DESC:0 "Pator in the Heimatar region is the home system of the Minmatar."
+ thukker_tribe_NAME:0 "M-MD3B"
+ thukker_tribe_DESC:0 "Home system of the Thukker Tribe.\n\nLocated in the Great Wildlands."
+ 
+ # Neutral Factions
+ ore_NAME:0 "4C-B7X"
+ ore_DESC:0 "Headequarters of Outer Ring Excavation (ORE)."
+ interbus_NAME:0 "Ouapheh"
+ interbus_DESC:0 "Headequarters of The Interbus."
+ mordus_legion_NAME:0 "5ZXX-K"
+ mordus_legion_DESC:0 "Command of the Mordu's Legion."
+
+ 
+ # Jove Factions
+ 
+ # Hostile Factions
+ sanshas_nation_NAME:0 "37S-KO"
+ sanshas_nation_DESC:0 "Home system of Sansha's Nation.\n\nLocated in Stain."
+ 
+ # Pirate Factions
+ guristas_NAME:0 "6NJ8-V"
+ guristas_DESC:0 "Home system of the Guristas Pirates."
+ angel_cartel_NAME:0 "Utopia"
+ angel_cartel_DESC:0 "Home system of the Angel's Cartel."
+ blood_raiders_NAME:0 "KFIE-Z"
+ blood_raiders_DESC:0 "Home system of the Blood Raider's Covenant."
+ syndicate_NAME:0 "Poitot"
+ syndicate_DESC:0 "Home system of the Intaki Syndicate."
